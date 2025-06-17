@@ -1,0 +1,185 @@
+
+    body {
+        min-height: 100vh;
+        margin: 0;
+        font-family: 'Poppins', Arial, sans-serif;
+        background: #f7f7fa;
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    .coming-container {
+        max-width: 500px;
+        margin: 60px auto 0 auto;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 18px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+        padding: 40px 30px 30px 30px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    .coming-title {
+        font-size: 1.3em;
+        font-weight: 400;
+        color: #222;
+        margin-bottom: 0.2em;
+        letter-spacing: 1px;
+    }
+
+    .coming-sub {
+        font-size: 2em;
+        font-weight: 600;
+        color: #222;
+        margin-bottom: 18px;
+        letter-spacing: 1px;
+    }
+
+    .coming-underline {
+        width: 60px;
+        height: 4px;
+        background: #e91e63;
+        margin: 0 auto 30px auto;
+        border-radius: 2px;
+    }
+
+    .countdown-row {
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        margin-bottom: 18px;
+    }
+
+    .countdown-box {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(233, 30, 99, 0.08);
+        padding: 18px 10px 10px 10px;
+        min-width: 60px;
+        color: #e91e63;
+        font-size: 2.2em;
+        font-weight: 700;
+        position: relative;
+    }
+
+    .countdown-label {
+        font-size: 0.7em;
+        color: #888;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-top: 6px;
+        display: block;
+    }
+
+    .notify-text {
+        margin: 30px 0 10px 0;
+        color: #222;
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+
+    .notify-form {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        margin-bottom: 18px;
+    }
+
+    .notify-form input[type="email"] {
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px 0 0 4px;
+        outline: none;
+        font-size: 1em;
+        width: 220px;
+        background: #fafafa;
+    }
+
+    .notify-form button {
+        padding: 12px 24px;
+        border: none;
+        background: #222;
+        color: #fff;
+        font-size: 1em;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        font-weight: 600;
+        letter-spacing: 1px;
+        transition: background 0.2s;
+    }
+
+    .notify-form button:hover {
+        background: #e91e63;
+    }
+
+    .footer {
+        margin-top: 18px;
+        color: #888;
+        font-size: 0.95em;
+    }
+
+    .footer a {
+        color: #888;
+        text-decoration: underline;
+        font-size: 0.95em;
+    }
+
+    .socials {
+        margin: 12px 0 0 0;
+    }
+
+    .socials a {
+        display: inline-block;
+        margin: 0 8px;
+        color: #222;
+        font-size: 1.3em;
+        transition: color 0.2s;
+    }
+
+    .socials a:hover {
+        color: #e91e63;
+    }
+
+    /* Arka plan desenleri */
+    .bg-decor {
+        position: fixed;
+        z-index: 0;
+        pointer-events: none;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" xmlns="http://www.w3.org/2000/svg"><circle cx="80" cy="80" r="60" fill="none" stroke="%23e0e0e0" stroke-width="2"/><circle cx="300" cy="200" r="120" fill="none" stroke="%23e0e0e0" stroke-width="2"/><circle cx="90%25" cy="60" r="80" fill="none" stroke="%23e0e0e0" stroke-width="2"/><circle cx="60%25" cy="90%25" r="100" fill="none" stroke="%23e0e0e0" stroke-width="2"/></svg>');
+        opacity: 0.5;
+    }
+
+    @media (max-width: 600px) {
+        .coming-container {
+            padding: 20px 5px;
+        }
+
+        .countdown-row {
+            gap: 8px;
+        }
+
+        .countdown-box {
+            font-size: 1.3em;
+            min-width: 40px;
+            padding: 10px 4px 6px 4px;
+        }
+
+        .notify-form input[type="email"] {
+            width: 120px;
+            font-size: 0.95em;
+        }
+
+        .coming-title {
+            font-size: 1em;
+        }
+
+        .coming-sub {
+            font-size: 1.2em;
+        }
+    }
+

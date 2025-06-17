@@ -1,0 +1,3 @@
+User-agent: *
+  Disallow:
+  Sitemap: https://soydanaksoy.com/map.xml
