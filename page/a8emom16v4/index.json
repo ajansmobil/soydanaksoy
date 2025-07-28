@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Hava Çekimleri"
+  },
+  "status": "play",
+  "category": "",
+  "id": "a8emom16v4",
+  "url": "",
+  "path": "hava-cekimleri",
+  "index": 5,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "text": {
+    "tr": ""
+  },
+  "spot": {
+    "tr": ""
+  },
+  "update": "2025-06-23T11:25:14.620Z",
+  "date": "2025-06-23T11:25:14.620Z"
+}
