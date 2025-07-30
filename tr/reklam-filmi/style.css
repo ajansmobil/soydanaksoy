@@ -1,9 +1,9 @@
 
-  .fe6eamenulist-menu:hover .dropdown-content-fe6ea {
+  .jyeulmenulist-menu:hover .dropdown-content-jyeul {
     display: flex;
     flex-direction: column;
   }
-  .fe6eamenulist-menu {
+  .jyeulmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,35 +17,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .fe6eamenulist-menu:hover {
+  .jyeulmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .fe6eamenulist-menu:hover > a {
+  .jyeulmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .fe6eamenulist-menu > a {
+  .jyeulmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-fe6ea {
+  .dropdown-content-active-jyeul {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-fe6ea > a {
+  .dropdown-content-active-jyeul > a {
     color: #000 !important;
   }
 
-  .dropdown-content-fe6ea {
+  .dropdown-content-jyeul {
     display: none;
     position: absolute;
     background-color: #333;
@@ -54,7 +54,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-fe6ea > a {
+  .dropdown-content-jyeul > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -62,13 +62,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-fe6ea > a:hover {
+  .dropdown-content-jyeul > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .fe6eabody {
+  .jyeulbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -76,87 +76,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .fe6eabody > a {
+  .jyeulbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .fe6ea-title {
+  .jyeul-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .fe6ea-spot {
+  .jyeul-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .fe6ea-icon {
+  .jyeul-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .fe6ea {
+  .jyeul {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .fe6eatitle {
+  .jyeultitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .fe6eatitlebody {
+  .jyeultitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .fe6eatitlebodytitle {
+  .jyeultitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .fe6eatitlebodylang {
+  .jyeultitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .fe6eatitlebodylang ul {
+  .jyeultitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .fe6eatitlebodylang li {
+  .jyeultitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .fe6eamenu {
+  .jyeulmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .fe6eamenulist {
+  .jyeulmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .fe6eamenubody {
+  .jyeulmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .fe6eamenulist {
+  .jyeulmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -165,20 +165,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .fe6eamenulistbody {
+  .jyeulmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .fe6eamenu {
+    .jyeulmenu {
       overflow-x: auto;
     }
-    .fe6eamenulist {
+    .jyeulmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .fe6eabody {
+    .jyeulbody {
       display: flex;
       align-items: center;
       justify-content: center;

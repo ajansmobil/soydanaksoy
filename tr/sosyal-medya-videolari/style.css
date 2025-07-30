@@ -1,9 +1,9 @@
 
-  .kx08imenulist-menu:hover .dropdown-content-kx08i {
+  .kg9zfmenulist-menu:hover .dropdown-content-kg9zf {
     display: flex;
     flex-direction: column;
   }
-  .kx08imenulist-menu {
+  .kg9zfmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,35 +17,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .kx08imenulist-menu:hover {
+  .kg9zfmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .kx08imenulist-menu:hover > a {
+  .kg9zfmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .kx08imenulist-menu > a {
+  .kg9zfmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-kx08i {
+  .dropdown-content-active-kg9zf {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-kx08i > a {
+  .dropdown-content-active-kg9zf > a {
     color: #000 !important;
   }
 
-  .dropdown-content-kx08i {
+  .dropdown-content-kg9zf {
     display: none;
     position: absolute;
     background-color: #333;
@@ -54,7 +54,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-kx08i > a {
+  .dropdown-content-kg9zf > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -62,13 +62,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-kx08i > a:hover {
+  .dropdown-content-kg9zf > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .kx08ibody {
+  .kg9zfbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -76,87 +76,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .kx08ibody > a {
+  .kg9zfbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .kx08i-title {
+  .kg9zf-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .kx08i-spot {
+  .kg9zf-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .kx08i-icon {
+  .kg9zf-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .kx08i {
+  .kg9zf {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .kx08ititle {
+  .kg9zftitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .kx08ititlebody {
+  .kg9zftitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .kx08ititlebodytitle {
+  .kg9zftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .kx08ititlebodylang {
+  .kg9zftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .kx08ititlebodylang ul {
+  .kg9zftitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .kx08ititlebodylang li {
+  .kg9zftitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .kx08imenu {
+  .kg9zfmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .kx08imenulist {
+  .kg9zfmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .kx08imenubody {
+  .kg9zfmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .kx08imenulist {
+  .kg9zfmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -165,20 +165,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .kx08imenulistbody {
+  .kg9zfmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .kx08imenu {
+    .kg9zfmenu {
       overflow-x: auto;
     }
-    .kx08imenulist {
+    .kg9zfmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .kx08ibody {
+    .kg9zfbody {
       display: flex;
       align-items: center;
       justify-content: center;

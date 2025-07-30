@@ -1,9 +1,9 @@
 
-  .cgb9zmenulist-menu:hover .dropdown-content-cgb9z {
+  .gslixmenulist-menu:hover .dropdown-content-gslix {
     display: flex;
     flex-direction: column;
   }
-  .cgb9zmenulist-menu {
+  .gslixmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,35 +17,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .cgb9zmenulist-menu:hover {
+  .gslixmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .cgb9zmenulist-menu:hover > a {
+  .gslixmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .cgb9zmenulist-menu > a {
+  .gslixmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-cgb9z {
+  .dropdown-content-active-gslix {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-cgb9z > a {
+  .dropdown-content-active-gslix > a {
     color: #000 !important;
   }
 
-  .dropdown-content-cgb9z {
+  .dropdown-content-gslix {
     display: none;
     position: absolute;
     background-color: #333;
@@ -54,7 +54,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-cgb9z > a {
+  .dropdown-content-gslix > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -62,13 +62,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-cgb9z > a:hover {
+  .dropdown-content-gslix > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .cgb9zbody {
+  .gslixbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -76,87 +76,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .cgb9zbody > a {
+  .gslixbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .cgb9z-title {
+  .gslix-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .cgb9z-spot {
+  .gslix-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .cgb9z-icon {
+  .gslix-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .cgb9z {
+  .gslix {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .cgb9ztitle {
+  .gslixtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .cgb9ztitlebody {
+  .gslixtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .cgb9ztitlebodytitle {
+  .gslixtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .cgb9ztitlebodylang {
+  .gslixtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .cgb9ztitlebodylang ul {
+  .gslixtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .cgb9ztitlebodylang li {
+  .gslixtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .cgb9zmenu {
+  .gslixmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .cgb9zmenulist {
+  .gslixmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .cgb9zmenubody {
+  .gslixmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .cgb9zmenulist {
+  .gslixmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -165,20 +165,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .cgb9zmenulistbody {
+  .gslixmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .cgb9zmenu {
+    .gslixmenu {
       overflow-x: auto;
     }
-    .cgb9zmenulist {
+    .gslixmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .cgb9zbody {
+    .gslixbody {
       display: flex;
       align-items: center;
       justify-content: center;

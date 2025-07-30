@@ -7,10 +7,12 @@
   "id": "mhwcn1fry5",
   "url": "",
   "path": "iletisim",
-  "index": 0,
+  "index": 1,
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "l0aca0"
+    ],
     "footer": []
   },
   "pathnext": "",
@@ -26,6 +28,6 @@
   "spot": {
     "tr": ""
   },
-  "update": "2025-06-23T11:28:23.286Z",
+  "update": "2025-07-30T05:10:54.586Z",
   "date": "2025-06-23T11:28:23.286Z"
 }
