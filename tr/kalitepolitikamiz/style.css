@@ -1,137 +1,194 @@
 
-  .f08vm {
+  .cox5hmenulist-menu:hover .dropdown-content-cox5h {
+    display: flex;
+    flex-direction: column;
+  }
+  .cox5hmenulist-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff !important;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .cox5hmenulist-menu:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #000 !important;
+    cursor: pointer;
+  }
+  .cox5hmenulist-menu:hover > a {
+    color: #000 !important;
+  }
+
+  .cox5hmenulist-menu > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff !important;
+  }
+
+  .dropdown-content-active-cox5h {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #000 !important;
+    cursor: pointer;
+  }
+
+  .dropdown-content-active-cox5h > a {
+    color: #000 !important;
+  }
+
+  .dropdown-content-cox5h {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    z-index: 102;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  .dropdown-content-cox5h > a {
+    width: inherit;
+    padding: 10px;
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    text-align: left;
+    color: #fff;
+  }
+  .dropdown-content-cox5h > a:hover {
+    background-color: #000;
+  }
+  .module-logo {
+    width: 300px;
+  }
+  .cox5hbody {
+    width: var(--max);
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .cox5hbody > a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    gap: 10px;
+  }
+  .cox5h-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: --titlecolor--;
+  }
+  .cox5h-spot {
+    font-size: 16px;
+    color: --spotcolor--;
+  }
+  .cox5h-icon {
+    font-size: 36px !important;
+    color: --iconcolor--;
+  }
+  .cox5h {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
-  .f08vmtitlebodylang {
-    width: auto;
-    margin: -5px 0px -5px 0px;
-  }
-
-  .f08vmtitlebodylang ul {
-    display: flex;
-    gap: 5px;
-  }
-
-  .f08vmtitle {
+  .cox5htitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
-  .f08vmtitlebody {
+  .cox5htitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-
-  .f08vmbody {
-    width: var(--max);
+  .cox5htitlebodytitle {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 5px 0px 5px 0px;
+    justify-content: left;
   }
-
-  .f08vmmenu {
+  .cox5htitlebodylang {
+    width: auto;
+    margin: -5px 0px -5px 0px;
+  }
+  .cox5htitlebodylang ul {
+    display: flex;
+    gap: 5px;
+    position: relative;
+  }
+  .cox5htitlebodylang li {
+    position: relative;
+    list-style: none;
+  }
+  .cox5hmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-
-  .f08vmmenulist {
+  .cox5hmenulist {
     width: calc(100% - 20px);
-    background-color: #0080c0;
+    background-color: #000;
     padding: 10px;
-    border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-
-  .f08vmmenulist ul {
+  .cox5hmenubody {
     width: 100%;
-    list-style-type: none;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cox5hmenulist {
+    width: 100%;
     display: flex;
     gap: 10px;
     margin: 0;
     padding: 0;
-    overflow-x: auto;
-  }
-
-  .f08vmmenulist ul a {
     padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    border-bottom: 1px solid #ddd;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    white-space: nowrap;
+    /* overflow-x: auto; */
   }
-
-  .f08vmmenulist ul a:hover {
-    background-color: #e0e0e0;
-    color: #000;
-    cursor: pointer;
-  }
-
-  .f08vm-menu-active {
-    background-color: #e0e0e0;
-    color: #000 !important;
-  }
-
-  .f08vmmenucontact {
-    background-color: #00aaff76;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 5px;
-    float: right;
-  }
-
-  .f08vmmenucontacttitle {
-    font-size: 16px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    flex-grow: 1;
-  }
-
-  .f08vmmenulistbody {
+  .cox5hmenulistbody {
     width: 100%;
   }
-
   @media screen and (max-width: 1024px) {
-    .f08vmmenu {
+    .cox5hmenu {
       overflow-x: auto;
     }
-
-    .f08vmmenulist ul {
+    .cox5hmenulist {
       flex-direction: row;
     }
-  }
-
-  @media screen and (max-width: 768px) {
-    .f08vmmenulist ul a {
-      font-size: 14px;
+    .module-logo {
+      width: 200px;
+    }
+    .cox5hbody {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
 
   .footer {
     position: relative;
-    background: #1e3046;
+    background: #000000;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -195,7 +252,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%231e3046;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000000;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
     background-size: 1000px 102px;
   }
 

@@ -25,7 +25,6 @@ a:visited {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 14px;
   line-height: 1.2;
-  font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
@@ -79,6 +78,10 @@ body {
   }
   .mobil-closed {
     display: none !important;
+  }
+
+  #content {
+    width: 100%;
   }
 }
 @media screen and (min-width: 1024px) {

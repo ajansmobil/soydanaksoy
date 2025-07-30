@@ -1,14 +1,13 @@
 {
   "name": {
-    "tr": "Kurumsal Sunum Tasarımları"
+    "tr": "Marka Danışmalığı"
   },
   "status": "play",
   "category": "",
-  "id": "v4a46zm7ev",
+  "id": "y78hadddgn",
   "url": "",
-  "path": "kurumsal-sunum-tasarimlari",
-  "index": 4,
-  "icon": "home",
+  "path": "marka-danismaligi",
+  "index": 0,
   "desing": {
     "header": [],
     "body": [],
@@ -27,6 +26,6 @@
   "spot": {
     "tr": ""
   },
-  "update": "2025-06-23T11:24:36.437Z",
-  "date": "2025-06-23T11:24:36.437Z"
+  "update": "2025-07-30T04:55:12.451Z",
+  "date": "2025-07-30T04:55:12.451Z"
 }

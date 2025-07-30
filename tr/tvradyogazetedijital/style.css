@@ -1,137 +1,194 @@
 
-  .mjod0 {
+  .ljzevmenulist-menu:hover .dropdown-content-ljzev {
+    display: flex;
+    flex-direction: column;
+  }
+  .ljzevmenulist-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff !important;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .ljzevmenulist-menu:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #000 !important;
+    cursor: pointer;
+  }
+  .ljzevmenulist-menu:hover > a {
+    color: #000 !important;
+  }
+
+  .ljzevmenulist-menu > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff !important;
+  }
+
+  .dropdown-content-active-ljzev {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #000 !important;
+    cursor: pointer;
+  }
+
+  .dropdown-content-active-ljzev > a {
+    color: #000 !important;
+  }
+
+  .dropdown-content-ljzev {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    z-index: 102;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  .dropdown-content-ljzev > a {
+    width: inherit;
+    padding: 10px;
+    border: solid;
+    border-width: 0px 0px 1px 0px;
+    text-align: left;
+    color: #fff;
+  }
+  .dropdown-content-ljzev > a:hover {
+    background-color: #000;
+  }
+  .module-logo {
+    width: 300px;
+  }
+  .ljzevbody {
+    width: var(--max);
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .ljzevbody > a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    gap: 10px;
+  }
+  .ljzev-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: --titlecolor--;
+  }
+  .ljzev-spot {
+    font-size: 16px;
+    color: --spotcolor--;
+  }
+  .ljzev-icon {
+    font-size: 36px !important;
+    color: --iconcolor--;
+  }
+  .ljzev {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-
-  .mjod0titlebodylang {
-    width: auto;
-    margin: -5px 0px -5px 0px;
-  }
-
-  .mjod0titlebodylang ul {
-    display: flex;
-    gap: 5px;
-  }
-
-  .mjod0title {
+  .ljzevtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
-  .mjod0titlebody {
+  .ljzevtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-
-  .mjod0body {
-    width: var(--max);
+  .ljzevtitlebodytitle {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 5px 0px 5px 0px;
+    justify-content: left;
   }
-
-  .mjod0menu {
+  .ljzevtitlebodylang {
+    width: auto;
+    margin: -5px 0px -5px 0px;
+  }
+  .ljzevtitlebodylang ul {
+    display: flex;
+    gap: 5px;
+    position: relative;
+  }
+  .ljzevtitlebodylang li {
+    position: relative;
+    list-style: none;
+  }
+  .ljzevmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-
-  .mjod0menulist {
+  .ljzevmenulist {
     width: calc(100% - 20px);
-    background-color: #0080c0;
+    background-color: #000;
     padding: 10px;
-    border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-
-  .mjod0menulist ul {
+  .ljzevmenubody {
     width: 100%;
-    list-style-type: none;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ljzevmenulist {
+    width: 100%;
     display: flex;
     gap: 10px;
     margin: 0;
     padding: 0;
-    overflow-x: auto;
-  }
-
-  .mjod0menulist ul a {
     padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    border-bottom: 1px solid #ddd;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    white-space: nowrap;
+    /* overflow-x: auto; */
   }
-
-  .mjod0menulist ul a:hover {
-    background-color: #e0e0e0;
-    color: #000;
-    cursor: pointer;
-  }
-
-  .mjod0-menu-active {
-    background-color: #e0e0e0;
-    color: #000 !important;
-  }
-
-  .mjod0menucontact {
-    background-color: #00aaff76;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    border-radius: 5px;
-    float: right;
-  }
-
-  .mjod0menucontacttitle {
-    font-size: 16px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    flex-grow: 1;
-  }
-
-  .mjod0menulistbody {
+  .ljzevmenulistbody {
     width: 100%;
   }
-
   @media screen and (max-width: 1024px) {
-    .mjod0menu {
+    .ljzevmenu {
       overflow-x: auto;
     }
-
-    .mjod0menulist ul {
+    .ljzevmenulist {
       flex-direction: row;
     }
-  }
-
-  @media screen and (max-width: 768px) {
-    .mjod0menulist ul a {
-      font-size: 14px;
+    .module-logo {
+      width: 200px;
+    }
+    .ljzevbody {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 
 
   .footer {
     position: relative;
-    background: #1e3046;
+    background: #000000;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
@@ -195,7 +252,7 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%231e3046;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='katman_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 640 65' style='enable-background:new 0 0 640 65;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%23000000;%7D %3C/style%3E %3Cpath class='st0' d='M0,22.4C0,22.4,74.1,0,153,0c176.5,0,328.1,76.6,487,22.4V65H0V22.4z'/%3E%3C/svg%3E");
     background-size: 1000px 102px;
   }
 
