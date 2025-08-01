@@ -1,15 +1,15 @@
 
-  .vfr3gmenumobil {
+  .bko33menumobil {
     display: none;
     cursor: pointer;
   }
-  .vfr3gChildren {
+  .bko33Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .vfr3g {
+  .bko33 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .vfr3gtitle {
+  .bko33title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .vfr3gtitlebody {
+  .bko33titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .vfr3gtitlebodytitle {
+  .bko33titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .vfr3gtitlebodylang {
+  .bko33titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .vfr3gtitlebodylang ul {
+  .bko33titlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .vfr3gbody {
+  .bko33body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .vfr3gmenulist {
+  .bko33menulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .vfr3gmenubody {
+  .bko33menubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .vfr3gmenulist ul {
+  .bko33menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .vfr3gmenulist ul a {
+  .bko33menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .vfr3gmenulist ul a:hover {
+  .bko33menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .vfr3gbodylogo {
+  .bko33bodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .vfr3gmenumobil {
+    .bko33menumobil {
       display: none !important;
     }
-    .vfr3gmenulist {
+    .bko33menulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .vfr3gmenumobil {
+    .bko33menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .vfr3gmenumobil div {
+    .bko33menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .vfr3gmenulist {
+    .bko33menulist {
       display: none;
     }
-    .vfr3gbody {
+    .bko33body {
       flex-direction: column;
       gap: 20px;
     }
-    .vfr3gChildren {
+    .bko33Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .vfr3gmenulist ul a {
+    .bko33menulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .vfr3gmenu {
+    .bko33menu {
       overflow-x: auto;
     }
-    .vfr3gmenulist ul {
+    .bko33menulist ul {
       flex-direction: column;
     }
-    .vfr3gbodylogo {
+    .bko33bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .vfr3gmenulist ul a {
+    .bko33menulist ul a {
       font-size: 14px;
     }
   }

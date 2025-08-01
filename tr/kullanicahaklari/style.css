@@ -1,15 +1,15 @@
 
-  .g8bo6menumobil {
+  .lsmvwmenumobil {
     display: none;
     cursor: pointer;
   }
-  .g8bo6Children {
+  .lsmvwChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .g8bo6 {
+  .lsmvw {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .g8bo6title {
+  .lsmvwtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .g8bo6titlebody {
+  .lsmvwtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .g8bo6titlebodytitle {
+  .lsmvwtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .g8bo6titlebodylang {
+  .lsmvwtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .g8bo6titlebodylang ul {
+  .lsmvwtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .g8bo6body {
+  .lsmvwbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .g8bo6menulist {
+  .lsmvwmenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .g8bo6menubody {
+  .lsmvwmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .g8bo6menulist ul {
+  .lsmvwmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .g8bo6menulist ul a {
+  .lsmvwmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .g8bo6menulist ul a:hover {
+  .lsmvwmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .g8bo6bodylogo {
+  .lsmvwbodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .g8bo6menumobil {
+    .lsmvwmenumobil {
       display: none !important;
     }
-    .g8bo6menulist {
+    .lsmvwmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .g8bo6menumobil {
+    .lsmvwmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .g8bo6menumobil div {
+    .lsmvwmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .g8bo6menulist {
+    .lsmvwmenulist {
       display: none;
     }
-    .g8bo6body {
+    .lsmvwbody {
       flex-direction: column;
       gap: 20px;
     }
-    .g8bo6Children {
+    .lsmvwChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .g8bo6menulist ul a {
+    .lsmvwmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .g8bo6menu {
+    .lsmvwmenu {
       overflow-x: auto;
     }
-    .g8bo6menulist ul {
+    .lsmvwmenulist ul {
       flex-direction: column;
     }
-    .g8bo6bodylogo {
+    .lsmvwbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .g8bo6menulist ul a {
+    .lsmvwmenulist ul a {
       font-size: 14px;
     }
   }
@@ -157,7 +157,7 @@
     justify-content: start;
   }
 
-  .tziuz {
+  .pazip {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -165,7 +165,7 @@
     position: relative;
   }
 
-  .tziuz-menu-btn {
+  .pazip-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -177,11 +177,11 @@
     align-items: center;
   }
 
-  .tziuz-menu-btn i {
+  .pazip-menu-btn i {
     font-size: 20px;
   }
 
-  .tziuz-menu {
+  .pazip-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -192,28 +192,28 @@
     float: left;
   }
 
-  .tziuz-desc {
+  .pazip-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .tziuz-menu > a {
+  .pazip-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .tziuz-menu > .active,
-  .tziuz-menu > a:hover {
+  .pazip-menu > .active,
+  .pazip-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .tziuz-desc-menu {
+  .pazip-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -221,19 +221,19 @@
     border-radius: 5px;
   }
 
-  .tziuz-desc-menu > div {
+  .pazip-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .tziuz-desc-body {
+  .pazip-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .tziuz-title {
+  .pazip-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -246,7 +246,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .tziuz-title::before {
+  .pazip-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -261,44 +261,44 @@
     z-index: 1;
   }
 
-  .tziuz-title span {
+  .pazip-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .tziuz-body {
+  .pazip-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .tziuz-img {
+  .pazip-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .tziuz-img img {
+  .pazip-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .tziuz-desc {
+    .pazip-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .tziuz-menu-btn {
+    .pazip-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .tziuz {
+    .pazip {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -307,17 +307,17 @@
       margin-top: 0px;
     }
 
-    .tziuz-img {
+    .pazip-img {
       width: 100%;
     }
 
-    .tziuz-body {
+    .pazip-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .tziuz-menu {
+    .pazip-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -325,11 +325,11 @@
       display: none;
     }
 
-    .tziuz-menu.active {
+    .pazip-menu.active {
       display: flex;
     }
 
-    .tziuz-desc {
+    .pazip-desc {
       width: 100% !important;
       order: 2;
     }

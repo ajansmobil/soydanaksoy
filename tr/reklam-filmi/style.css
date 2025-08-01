@@ -1,15 +1,15 @@
 
-  .dke6smenumobil {
+  .wmzgmmenumobil {
     display: none;
     cursor: pointer;
   }
-  .dke6sChildren {
+  .wmzgmChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .dke6s {
+  .wmzgm {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .dke6stitle {
+  .wmzgmtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .dke6stitlebody {
+  .wmzgmtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .dke6stitlebodytitle {
+  .wmzgmtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .dke6stitlebodylang {
+  .wmzgmtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .dke6stitlebodylang ul {
+  .wmzgmtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .dke6sbody {
+  .wmzgmbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .dke6smenulist {
+  .wmzgmmenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .dke6smenubody {
+  .wmzgmmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .dke6smenulist ul {
+  .wmzgmmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .dke6smenulist ul a {
+  .wmzgmmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .dke6smenulist ul a:hover {
+  .wmzgmmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .dke6sbodylogo {
+  .wmzgmbodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .dke6smenumobil {
+    .wmzgmmenumobil {
       display: none !important;
     }
-    .dke6smenulist {
+    .wmzgmmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .dke6smenumobil {
+    .wmzgmmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .dke6smenumobil div {
+    .wmzgmmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .dke6smenulist {
+    .wmzgmmenulist {
       display: none;
     }
-    .dke6sbody {
+    .wmzgmbody {
       flex-direction: column;
       gap: 20px;
     }
-    .dke6sChildren {
+    .wmzgmChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .dke6smenulist ul a {
+    .wmzgmmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .dke6smenu {
+    .wmzgmmenu {
       overflow-x: auto;
     }
-    .dke6smenulist ul {
+    .wmzgmmenulist ul {
       flex-direction: column;
     }
-    .dke6sbodylogo {
+    .wmzgmbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .dke6smenulist ul a {
+    .wmzgmmenulist ul a {
       font-size: 14px;
     }
   }
