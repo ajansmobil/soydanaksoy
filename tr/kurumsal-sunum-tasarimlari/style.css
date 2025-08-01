@@ -1,15 +1,15 @@
 
-  .ycex3menumobil {
+  .tw4e0menumobil {
     display: none;
     cursor: pointer;
   }
-  .ycex3Children {
+  .tw4e0Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .ycex3 {
+  .tw4e0 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .ycex3title {
+  .tw4e0title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ycex3titlebody {
+  .tw4e0titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .ycex3titlebodytitle {
+  .tw4e0titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .ycex3titlebodylang {
+  .tw4e0titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .ycex3titlebodylang ul {
+  .tw4e0titlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .ycex3body {
+  .tw4e0body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .ycex3menulist {
+  .tw4e0menulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .ycex3menubody {
+  .tw4e0menubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ycex3menulist ul {
+  .tw4e0menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .ycex3menulist ul a {
+  .tw4e0menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,74 +86,74 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .ycex3menulist ul a:hover {
+  .tw4e0menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .ycex3bodylogo {
+  .tw4e0bodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .ycex3menumobil {
+    .tw4e0menumobil {
       display: none !important;
     }
-    .ycex3menulist {
+    .tw4e0menulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .ycex3menumobil {
+    .tw4e0menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .ycex3menumobil div {
+    .tw4e0menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .ycex3menulist {
+    .tw4e0menulist {
       display: none;
     }
-    .ycex3body {
+    .tw4e0body {
       flex-direction: column;
       gap: 20px;
     }
-    .ycex3Children {
+    .tw4e0Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .ycex3menulist ul a {
+    .tw4e0menulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .ycex3menu {
+    .tw4e0menu {
       overflow-x: auto;
     }
-    .ycex3menulist ul {
+    .tw4e0menulist ul {
       flex-direction: column;
     }
-    .ycex3bodylogo {
+    .tw4e0bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .ycex3menulist ul a {
+    .tw4e0menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .w7qn4-title {
+  .njdk0-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -166,7 +166,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .w7qn4-title::before {
+  .njdk0-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -181,13 +181,13 @@
     z-index: 1;
   }
 
-  .w7qn4-title span {
+  .njdk0-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .w7qn4 {
+  .njdk0 {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -195,14 +195,14 @@
     margin-top: 20px;
   }
 
-  .w7qn4-body {
+  .njdk0-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .w7qn4-img {
+  .njdk0-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -210,18 +210,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .w7qn4 {
+    .njdk0 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .w7qn4-img {
+    .njdk0-img {
       width: 100%;
     }
 
-    .w7qn4-body {
+    .njdk0-body {
       width: 100%;
     }
   }
@@ -231,14 +231,14 @@
   }
 
 
-  .bnc6v {
+  .a7a5m {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .bnc6vbody {
+  .a7a5mbody {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -248,7 +248,7 @@
     /* Center all grid items */
   }
 
-  .bnc6vbodyitem {
+  .a7a5mbodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -263,13 +263,13 @@
     justify-content: center;
   }
 
-  .bnc6vbodyitem:hover {
+  .a7a5mbodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .bnc6vbodyitemimg {
+  .a7a5mbodyitemimg {
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -279,14 +279,14 @@
     margin-bottom: 10px;
   }
 
-  .bnc6vbodyitemimg img {
+  .a7a5mbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .bnc6vbodyitemtitle {
+  .a7a5mbodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -296,13 +296,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .bnc6vbody {
+    .a7a5mbody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .bnc6vbody {
+    .a7a5mbody {
       grid-template-columns: repeat(2, 1fr);
     }
   }

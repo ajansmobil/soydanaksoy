@@ -1,15 +1,15 @@
 
-  .t1gvqmenumobil {
+  .lsatrmenumobil {
     display: none;
     cursor: pointer;
   }
-  .t1gvqChildren {
+  .lsatrChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .t1gvq {
+  .lsatr {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .t1gvqtitle {
+  .lsatrtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .t1gvqtitlebody {
+  .lsatrtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .t1gvqtitlebodytitle {
+  .lsatrtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .t1gvqtitlebodylang {
+  .lsatrtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .t1gvqtitlebodylang ul {
+  .lsatrtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .t1gvqbody {
+  .lsatrbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .t1gvqmenulist {
+  .lsatrmenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .t1gvqmenubody {
+  .lsatrmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .t1gvqmenulist ul {
+  .lsatrmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .t1gvqmenulist ul a {
+  .lsatrmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,74 +86,74 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .t1gvqmenulist ul a:hover {
+  .lsatrmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .t1gvqbodylogo {
+  .lsatrbodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .t1gvqmenumobil {
+    .lsatrmenumobil {
       display: none !important;
     }
-    .t1gvqmenulist {
+    .lsatrmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .t1gvqmenumobil {
+    .lsatrmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .t1gvqmenumobil div {
+    .lsatrmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .t1gvqmenulist {
+    .lsatrmenulist {
       display: none;
     }
-    .t1gvqbody {
+    .lsatrbody {
       flex-direction: column;
       gap: 20px;
     }
-    .t1gvqChildren {
+    .lsatrChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .t1gvqmenulist ul a {
+    .lsatrmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .t1gvqmenu {
+    .lsatrmenu {
       overflow-x: auto;
     }
-    .t1gvqmenulist ul {
+    .lsatrmenulist ul {
       flex-direction: column;
     }
-    .t1gvqbodylogo {
+    .lsatrbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .t1gvqmenulist ul a {
+    .lsatrmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .jdrjm-title {
+  .a92hp-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -166,7 +166,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .jdrjm-title::before {
+  .a92hp-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -181,13 +181,13 @@
     z-index: 1;
   }
 
-  .jdrjm-title span {
+  .a92hp-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .jdrjm {
+  .a92hp {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -195,14 +195,14 @@
     margin-top: 20px;
   }
 
-  .jdrjm-body {
+  .a92hp-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .jdrjm-img {
+  .a92hp-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -210,18 +210,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .jdrjm {
+    .a92hp {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .jdrjm-img {
+    .a92hp-img {
       width: 100%;
     }
 
-    .jdrjm-body {
+    .a92hp-body {
       width: 100%;
     }
   }
@@ -231,14 +231,14 @@
   }
 
 
-  .rpb06 {
+  .ntd8s {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .rpb06body {
+  .ntd8sbody {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -248,7 +248,7 @@
     /* Center all grid items */
   }
 
-  .rpb06bodyitem {
+  .ntd8sbodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -263,13 +263,13 @@
     justify-content: center;
   }
 
-  .rpb06bodyitem:hover {
+  .ntd8sbodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .rpb06bodyitemimg {
+  .ntd8sbodyitemimg {
     aspect-ratio: 2 / 1;
     display: flex;
     justify-content: center;
@@ -279,14 +279,14 @@
     margin-bottom: 10px;
   }
 
-  .rpb06bodyitemimg img {
+  .ntd8sbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .rpb06bodyitemtitle {
+  .ntd8sbodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -296,13 +296,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .rpb06body {
+    .ntd8sbody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .rpb06body {
+    .ntd8sbody {
       grid-template-columns: repeat(2, 1fr);
     }
   }
