@@ -1,187 +1,154 @@
 
-  .lmkukmenulist-menu:hover .dropdown-content-lmkuk {
-    display: flex;
-    flex-direction: column;
-  }
-  .lmkukmenulist-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: #fff !important;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    white-space: nowrap;
-  }
-  .lmkukmenulist-menu:hover {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    color: #000 !important;
-    cursor: pointer;
-  }
-  .lmkukmenulist-menu:hover > a {
-    color: #000 !important;
-  }
-
-  .lmkukmenulist-menu > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    color: #fff !important;
-  }
-
-  .dropdown-content-active-lmkuk {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    color: #000 !important;
-    cursor: pointer;
-  }
-
-  .dropdown-content-active-lmkuk > a {
-    color: #000 !important;
-  }
-
-  .dropdown-content-lmkuk {
+  .rat29menumobil {
     display: none;
-    position: absolute;
-    background-color: #333;
-    color: #fff;
-    z-index: 102;
-    margin-top: 10px;
-    padding: 5px;
+    cursor: pointer;
   }
-  .dropdown-content-lmkuk > a {
-    width: inherit;
-    padding: 10px;
-    border: solid;
-    border-width: 0px 0px 1px 0px;
-    text-align: left;
-    color: #fff;
-  }
-  .dropdown-content-lmkuk > a:hover {
-    background-color: #000;
-  }
-  .module-logo {
-    width: 300px;
-  }
-  .lmkukbody {
+  .rat29Children {
+    display: flex;
     width: var(--max);
-    display: flex;
-    align-items: center;
-    margin: 10px 0px 10px 0px;
-    gap: 20px;
-    justify-content: space-between;
+    gap: 15px;
+    align-items: end;
   }
-  .lmkukbody > a {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    position: relative;
-    gap: 10px;
-  }
-  .lmkuk-title {
-    font-size: 16px;
-    font-weight: 500;
-    color: --titlecolor--;
-  }
-  .lmkuk-spot {
-    font-size: 16px;
-    color: --spotcolor--;
-  }
-  .lmkuk-icon {
-    font-size: 36px !important;
-    color: --iconcolor--;
-  }
-  .lmkuk {
+  .rat29 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #e9e9e9;
   }
-  .lmkuktitle {
+  .rat29title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .lmkuktitlebody {
+  .rat29titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .lmkuktitlebodytitle {
+  .rat29titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .lmkuktitlebodylang {
+  .rat29titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .lmkuktitlebodylang ul {
+  .rat29titlebodylang ul {
     display: flex;
     gap: 5px;
-    position: relative;
   }
-  .lmkuktitlebodylang li {
-    position: relative;
-    list-style: none;
-  }
-  .lmkukmenu {
+  .rat29body {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
-    width: var(--max);
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0px 5px 0px;
   }
-  .lmkukmenulist {
-    width: calc(100% - 20px);
+  .rat29menulist {
+    display: block;
     background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
   }
-  .lmkukmenubody {
+  .rat29menubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .lmkukmenulist {
+  .rat29menulist ul {
     width: 100%;
+    list-style-type: none;
     display: flex;
     gap: 10px;
     margin: 0;
     padding: 0;
-    padding: 10px;
-    /* overflow-x: auto; */
+    overflow-x: auto;
   }
-  .lmkukmenulistbody {
+  .rat29menulist ul a {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid #ddd;
     width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .rat29menulist ul a:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+  }
+  .rat29bodylogo {
+    height: 100px;
+    max-width: 90vw;
+  }
+  @media screen and (min-width: 1024px) {
+    .rat29menumobil {
+      display: none !important;
+    }
+    .rat29menulist {
+      display: flex !important;
+    }
   }
   @media screen and (max-width: 1024px) {
-    .lmkukmenu {
-      overflow-x: auto;
-    }
-    .lmkukmenulist {
-      flex-direction: row;
-    }
-    .module-logo {
-      width: 200px;
-    }
-    .lmkukbody {
+    .rat29menumobil {
       display: flex;
       align-items: center;
+      justify-content: end;
+      background-color: #000;
+      width: 100%;
+    }
+    .rat29menumobil div {
+      font-size: 32px;
+      color: #fff;
+      padding: 5px;
+    }
+    .rat29menulist {
+      display: none;
+    }
+    .rat29body {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .rat29Children {
+      width: 100%;
+      gap: 0px;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
+    }
+    .rat29menulist ul a {
+      padding: 10px 0px 10px 0px;
+    }
+    .rat29menu {
+      overflow-x: auto;
+    }
+    .rat29menulist ul {
+      flex-direction: column;
+    }
+    .rat29bodylogo {
+      height: 50vw;
+      max-width: 50vw;
+      max-height: 100px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .rat29menulist ul a {
+      font-size: 14px;
     }
   }
 
