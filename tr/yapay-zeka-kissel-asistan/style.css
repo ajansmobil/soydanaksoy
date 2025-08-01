@@ -1,9 +1,9 @@
 
-  .awtuamenulist-menu:hover .dropdown-content-awtua {
+  .npil1menulist-menu:hover .dropdown-content-npil1 {
     display: flex;
     flex-direction: column;
   }
-  .awtuamenulist-menu {
+  .npil1menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,35 +17,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .awtuamenulist-menu:hover {
+  .npil1menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .awtuamenulist-menu:hover > a {
+  .npil1menulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .awtuamenulist-menu > a {
+  .npil1menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-awtua {
+  .dropdown-content-active-npil1 {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-awtua > a {
+  .dropdown-content-active-npil1 > a {
     color: #000 !important;
   }
 
-  .dropdown-content-awtua {
+  .dropdown-content-npil1 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -54,7 +54,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-awtua > a {
+  .dropdown-content-npil1 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -62,13 +62,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-awtua > a:hover {
+  .dropdown-content-npil1 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .awtuabody {
+  .npil1body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -76,87 +76,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .awtuabody > a {
+  .npil1body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .awtua-title {
+  .npil1-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .awtua-spot {
+  .npil1-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .awtua-icon {
+  .npil1-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .awtua {
+  .npil1 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .awtuatitle {
+  .npil1title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .awtuatitlebody {
+  .npil1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .awtuatitlebodytitle {
+  .npil1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .awtuatitlebodylang {
+  .npil1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .awtuatitlebodylang ul {
+  .npil1titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .awtuatitlebodylang li {
+  .npil1titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .awtuamenu {
+  .npil1menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .awtuamenulist {
+  .npil1menulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .awtuamenubody {
+  .npil1menubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .awtuamenulist {
+  .npil1menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -165,20 +165,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .awtuamenulistbody {
+  .npil1menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .awtuamenu {
+    .npil1menu {
       overflow-x: auto;
     }
-    .awtuamenulist {
+    .npil1menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .awtuabody {
+    .npil1body {
       display: flex;
       align-items: center;
       justify-content: center;

@@ -1,9 +1,9 @@
 
-  .nq7bemenulist-menu:hover .dropdown-content-nq7be {
+  .kycabmenulist-menu:hover .dropdown-content-kycab {
     display: flex;
     flex-direction: column;
   }
-  .nq7bemenulist-menu {
+  .kycabmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,35 +17,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .nq7bemenulist-menu:hover {
+  .kycabmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .nq7bemenulist-menu:hover > a {
+  .kycabmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .nq7bemenulist-menu > a {
+  .kycabmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-nq7be {
+  .dropdown-content-active-kycab {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-nq7be > a {
+  .dropdown-content-active-kycab > a {
     color: #000 !important;
   }
 
-  .dropdown-content-nq7be {
+  .dropdown-content-kycab {
     display: none;
     position: absolute;
     background-color: #333;
@@ -54,7 +54,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-nq7be > a {
+  .dropdown-content-kycab > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -62,13 +62,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-nq7be > a:hover {
+  .dropdown-content-kycab > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .nq7bebody {
+  .kycabbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -76,87 +76,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .nq7bebody > a {
+  .kycabbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .nq7be-title {
+  .kycab-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .nq7be-spot {
+  .kycab-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .nq7be-icon {
+  .kycab-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .nq7be {
+  .kycab {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .nq7betitle {
+  .kycabtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .nq7betitlebody {
+  .kycabtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .nq7betitlebodytitle {
+  .kycabtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .nq7betitlebodylang {
+  .kycabtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .nq7betitlebodylang ul {
+  .kycabtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .nq7betitlebodylang li {
+  .kycabtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .nq7bemenu {
+  .kycabmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .nq7bemenulist {
+  .kycabmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .nq7bemenubody {
+  .kycabmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .nq7bemenulist {
+  .kycabmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -165,20 +165,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .nq7bemenulistbody {
+  .kycabmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .nq7bemenu {
+    .kycabmenu {
       overflow-x: auto;
     }
-    .nq7bemenulist {
+    .kycabmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .nq7bebody {
+    .kycabbody {
       display: flex;
       align-items: center;
       justify-content: center;

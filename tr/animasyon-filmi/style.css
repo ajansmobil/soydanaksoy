@@ -1,9 +1,9 @@
 
-  .apeoqmenulist-menu:hover .dropdown-content-apeoq {
+  .nlxw7menulist-menu:hover .dropdown-content-nlxw7 {
     display: flex;
     flex-direction: column;
   }
-  .apeoqmenulist-menu {
+  .nlxw7menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,35 +17,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .apeoqmenulist-menu:hover {
+  .nlxw7menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .apeoqmenulist-menu:hover > a {
+  .nlxw7menulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .apeoqmenulist-menu > a {
+  .nlxw7menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-apeoq {
+  .dropdown-content-active-nlxw7 {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-apeoq > a {
+  .dropdown-content-active-nlxw7 > a {
     color: #000 !important;
   }
 
-  .dropdown-content-apeoq {
+  .dropdown-content-nlxw7 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -54,7 +54,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-apeoq > a {
+  .dropdown-content-nlxw7 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -62,13 +62,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-apeoq > a:hover {
+  .dropdown-content-nlxw7 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .apeoqbody {
+  .nlxw7body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -76,87 +76,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .apeoqbody > a {
+  .nlxw7body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .apeoq-title {
+  .nlxw7-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .apeoq-spot {
+  .nlxw7-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .apeoq-icon {
+  .nlxw7-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .apeoq {
+  .nlxw7 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .apeoqtitle {
+  .nlxw7title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .apeoqtitlebody {
+  .nlxw7titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .apeoqtitlebodytitle {
+  .nlxw7titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .apeoqtitlebodylang {
+  .nlxw7titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .apeoqtitlebodylang ul {
+  .nlxw7titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .apeoqtitlebodylang li {
+  .nlxw7titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .apeoqmenu {
+  .nlxw7menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .apeoqmenulist {
+  .nlxw7menulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .apeoqmenubody {
+  .nlxw7menubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .apeoqmenulist {
+  .nlxw7menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -165,20 +165,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .apeoqmenulistbody {
+  .nlxw7menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .apeoqmenu {
+    .nlxw7menu {
       overflow-x: auto;
     }
-    .apeoqmenulist {
+    .nlxw7menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .apeoqbody {
+    .nlxw7body {
       display: flex;
       align-items: center;
       justify-content: center;

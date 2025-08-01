@@ -1,9 +1,9 @@
 
-  .y977emenulist-menu:hover .dropdown-content-y977e {
+  .xsrudmenulist-menu:hover .dropdown-content-xsrud {
     display: flex;
     flex-direction: column;
   }
-  .y977emenulist-menu {
+  .xsrudmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,35 +17,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .y977emenulist-menu:hover {
+  .xsrudmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .y977emenulist-menu:hover > a {
+  .xsrudmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .y977emenulist-menu > a {
+  .xsrudmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-y977e {
+  .dropdown-content-active-xsrud {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-y977e > a {
+  .dropdown-content-active-xsrud > a {
     color: #000 !important;
   }
 
-  .dropdown-content-y977e {
+  .dropdown-content-xsrud {
     display: none;
     position: absolute;
     background-color: #333;
@@ -54,7 +54,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-y977e > a {
+  .dropdown-content-xsrud > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -62,13 +62,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-y977e > a:hover {
+  .dropdown-content-xsrud > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .y977ebody {
+  .xsrudbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -76,87 +76,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .y977ebody > a {
+  .xsrudbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .y977e-title {
+  .xsrud-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .y977e-spot {
+  .xsrud-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .y977e-icon {
+  .xsrud-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .y977e {
+  .xsrud {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .y977etitle {
+  .xsrudtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .y977etitlebody {
+  .xsrudtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .y977etitlebodytitle {
+  .xsrudtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .y977etitlebodylang {
+  .xsrudtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .y977etitlebodylang ul {
+  .xsrudtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .y977etitlebodylang li {
+  .xsrudtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .y977emenu {
+  .xsrudmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .y977emenulist {
+  .xsrudmenulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .y977emenubody {
+  .xsrudmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .y977emenulist {
+  .xsrudmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -165,20 +165,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .y977emenulistbody {
+  .xsrudmenulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .y977emenu {
+    .xsrudmenu {
       overflow-x: auto;
     }
-    .y977emenulist {
+    .xsrudmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .y977ebody {
+    .xsrudbody {
       display: flex;
       align-items: center;
       justify-content: center;

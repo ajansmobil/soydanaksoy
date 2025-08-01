@@ -1,9 +1,9 @@
 
-  .delxhmenulist-menu:hover .dropdown-content-delxh {
+  .srid5menulist-menu:hover .dropdown-content-srid5 {
     display: flex;
     flex-direction: column;
   }
-  .delxhmenulist-menu {
+  .srid5menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,35 +17,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .delxhmenulist-menu:hover {
+  .srid5menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .delxhmenulist-menu:hover > a {
+  .srid5menulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .delxhmenulist-menu > a {
+  .srid5menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-delxh {
+  .dropdown-content-active-srid5 {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-delxh > a {
+  .dropdown-content-active-srid5 > a {
     color: #000 !important;
   }
 
-  .dropdown-content-delxh {
+  .dropdown-content-srid5 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -54,7 +54,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-delxh > a {
+  .dropdown-content-srid5 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -62,13 +62,13 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-delxh > a:hover {
+  .dropdown-content-srid5 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .delxhbody {
+  .srid5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -76,87 +76,87 @@
     gap: 20px;
     justify-content: space-between;
   }
-  .delxhbody > a {
+  .srid5body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .delxh-title {
+  .srid5-title {
     font-size: 16px;
     font-weight: 500;
     color: --titlecolor--;
   }
-  .delxh-spot {
+  .srid5-spot {
     font-size: 16px;
     color: --spotcolor--;
   }
-  .delxh-icon {
+  .srid5-icon {
     font-size: 36px !important;
     color: --iconcolor--;
   }
-  .delxh {
+  .srid5 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .delxhtitle {
+  .srid5title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .delxhtitlebody {
+  .srid5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .delxhtitlebodytitle {
+  .srid5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .delxhtitlebodylang {
+  .srid5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .delxhtitlebodylang ul {
+  .srid5titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .delxhtitlebodylang li {
+  .srid5titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .delxhmenu {
+  .srid5menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .delxhmenulist {
+  .srid5menulist {
     width: calc(100% - 20px);
     background-color: #000;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .delxhmenubody {
+  .srid5menubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .delxhmenulist {
+  .srid5menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -165,20 +165,20 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .delxhmenulistbody {
+  .srid5menulistbody {
     width: 100%;
   }
   @media screen and (max-width: 1024px) {
-    .delxhmenu {
+    .srid5menu {
       overflow-x: auto;
     }
-    .delxhmenulist {
+    .srid5menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .delxhbody {
+    .srid5body {
       display: flex;
       align-items: center;
       justify-content: center;
