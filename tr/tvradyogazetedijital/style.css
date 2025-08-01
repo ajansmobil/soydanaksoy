@@ -1,15 +1,15 @@
 
-  .ih420menumobil {
+  .fxlklmenumobil {
     display: none;
     cursor: pointer;
   }
-  .ih420Children {
+  .fxlklChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .ih420 {
+  .fxlkl {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .ih420title {
+  .fxlkltitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ih420titlebody {
+  .fxlkltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .ih420titlebodytitle {
+  .fxlkltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .ih420titlebodylang {
+  .fxlkltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .ih420titlebodylang ul {
+  .fxlkltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .ih420body {
+  .fxlklbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .ih420menulist {
+  .fxlklmenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .ih420menubody {
+  .fxlklmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ih420menulist ul {
+  .fxlklmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .ih420menulist ul a {
+  .fxlklmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .ih420menulist ul a:hover {
+  .fxlklmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .ih420bodylogo {
+  .fxlklbodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .ih420menumobil {
+    .fxlklmenumobil {
       display: none !important;
     }
-    .ih420menulist {
+    .fxlklmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .ih420menumobil {
+    .fxlklmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .ih420menumobil div {
+    .fxlklmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .ih420menulist {
+    .fxlklmenulist {
       display: none;
     }
-    .ih420body {
+    .fxlklbody {
       flex-direction: column;
       gap: 20px;
     }
-    .ih420Children {
+    .fxlklChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .ih420menulist ul a {
+    .fxlklmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .ih420menu {
+    .fxlklmenu {
       overflow-x: auto;
     }
-    .ih420menulist ul {
+    .fxlklmenulist ul {
       flex-direction: column;
     }
-    .ih420bodylogo {
+    .fxlklbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .ih420menulist ul a {
+    .fxlklmenulist ul a {
       font-size: 14px;
     }
   }

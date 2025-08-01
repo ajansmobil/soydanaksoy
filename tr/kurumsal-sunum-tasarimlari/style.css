@@ -1,15 +1,15 @@
 
-  .bcy72menumobil {
+  .ug8eemenumobil {
     display: none;
     cursor: pointer;
   }
-  .bcy72Children {
+  .ug8eeChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .bcy72 {
+  .ug8ee {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .bcy72title {
+  .ug8eetitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .bcy72titlebody {
+  .ug8eetitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .bcy72titlebodytitle {
+  .ug8eetitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .bcy72titlebodylang {
+  .ug8eetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .bcy72titlebodylang ul {
+  .ug8eetitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .bcy72body {
+  .ug8eebody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .bcy72menulist {
+  .ug8eemenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .bcy72menubody {
+  .ug8eemenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .bcy72menulist ul {
+  .ug8eemenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .bcy72menulist ul a {
+  .ug8eemenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .bcy72menulist ul a:hover {
+  .ug8eemenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .bcy72bodylogo {
+  .ug8eebodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .bcy72menumobil {
+    .ug8eemenumobil {
       display: none !important;
     }
-    .bcy72menulist {
+    .ug8eemenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .bcy72menumobil {
+    .ug8eemenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .bcy72menumobil div {
+    .ug8eemenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .bcy72menulist {
+    .ug8eemenulist {
       display: none;
     }
-    .bcy72body {
+    .ug8eebody {
       flex-direction: column;
       gap: 20px;
     }
-    .bcy72Children {
+    .ug8eeChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .bcy72menulist ul a {
+    .ug8eemenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .bcy72menu {
+    .ug8eemenu {
       overflow-x: auto;
     }
-    .bcy72menulist ul {
+    .ug8eemenulist ul {
       flex-direction: column;
     }
-    .bcy72bodylogo {
+    .ug8eebodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .bcy72menulist ul a {
+    .ug8eemenulist ul a {
       font-size: 14px;
     }
   }

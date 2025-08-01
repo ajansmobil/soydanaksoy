@@ -1,15 +1,15 @@
 
-  .n3rp1menumobil {
+  .ynuw3menumobil {
     display: none;
     cursor: pointer;
   }
-  .n3rp1Children {
+  .ynuw3Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .n3rp1 {
+  .ynuw3 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .n3rp1title {
+  .ynuw3title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .n3rp1titlebody {
+  .ynuw3titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .n3rp1titlebodytitle {
+  .ynuw3titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .n3rp1titlebodylang {
+  .ynuw3titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .n3rp1titlebodylang ul {
+  .ynuw3titlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .n3rp1body {
+  .ynuw3body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .n3rp1menulist {
+  .ynuw3menulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .n3rp1menubody {
+  .ynuw3menubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .n3rp1menulist ul {
+  .ynuw3menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .n3rp1menulist ul a {
+  .ynuw3menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .n3rp1menulist ul a:hover {
+  .ynuw3menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .n3rp1bodylogo {
+  .ynuw3bodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .n3rp1menumobil {
+    .ynuw3menumobil {
       display: none !important;
     }
-    .n3rp1menulist {
+    .ynuw3menulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .n3rp1menumobil {
+    .ynuw3menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .n3rp1menumobil div {
+    .ynuw3menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .n3rp1menulist {
+    .ynuw3menulist {
       display: none;
     }
-    .n3rp1body {
+    .ynuw3body {
       flex-direction: column;
       gap: 20px;
     }
-    .n3rp1Children {
+    .ynuw3Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .n3rp1menulist ul a {
+    .ynuw3menulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .n3rp1menu {
+    .ynuw3menu {
       overflow-x: auto;
     }
-    .n3rp1menulist ul {
+    .ynuw3menulist ul {
       flex-direction: column;
     }
-    .n3rp1bodylogo {
+    .ynuw3bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .n3rp1menulist ul a {
+    .ynuw3menulist ul a {
       font-size: 14px;
     }
   }
