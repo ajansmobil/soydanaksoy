@@ -1,15 +1,15 @@
 
-  .ut9jnmenumobil {
+  .hojd9menumobil {
     display: none;
     cursor: pointer;
   }
-  .ut9jnChildren {
+  .hojd9Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .ut9jn {
+  .hojd9 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .ut9jntitle {
+  .hojd9title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ut9jntitlebody {
+  .hojd9titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .ut9jntitlebodytitle {
+  .hojd9titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .ut9jntitlebodylang {
+  .hojd9titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .ut9jntitlebodylang ul {
+  .hojd9titlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .ut9jnbody {
+  .hojd9body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .ut9jnmenulist {
+  .hojd9menulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .ut9jnmenubody {
+  .hojd9menubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ut9jnmenulist ul {
+  .hojd9menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .ut9jnmenulist ul a {
+  .hojd9menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,69 +86,224 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .ut9jnmenulist ul a:hover {
+  .hojd9menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .ut9jnbodylogo {
+  .hojd9bodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .ut9jnmenumobil {
+    .hojd9menumobil {
       display: none !important;
     }
-    .ut9jnmenulist {
+    .hojd9menulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .ut9jnmenumobil {
+    .hojd9menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .ut9jnmenumobil div {
+    .hojd9menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .ut9jnmenulist {
+    .hojd9menulist {
       display: none;
     }
-    .ut9jnbody {
+    .hojd9body {
       flex-direction: column;
       gap: 20px;
     }
-    .ut9jnChildren {
+    .hojd9Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .ut9jnmenulist ul a {
+    .hojd9menulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .ut9jnmenu {
+    .hojd9menu {
       overflow-x: auto;
     }
-    .ut9jnmenulist ul {
+    .hojd9menulist ul {
       flex-direction: column;
     }
-    .ut9jnbodylogo {
+    .hojd9bodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .ut9jnmenulist ul a {
+    .hojd9menulist ul a {
       font-size: 14px;
+    }
+  }
+
+
+  .zi0e0-title {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .zi0e0-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/page/yplqx1/bg/{{bgimg}}");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .zi0e0-title span {
+    position: relative;
+    z-index: 2;
+    font-size: 50px;
+  }
+
+  .zi0e0 {
+    width: var(--max);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .zi0e0-body {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .zi0e0-img {
+    flex: 1;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .zi0e0 {
+      flex-direction: column;
+      width: calc(100% - 10px);
+      padding: 5px;
+      gap: 20px;
+    }
+
+    .zi0e0-img {
+      width: 100%;
+    }
+
+    .zi0e0-body {
+      width: 100%;
+    }
+  }
+
+  #content {
+    justify-content: flex-start;
+  }
+
+
+  .yx399 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .yx399body {
+    width: var(--max);
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+    justify-content: center;
+    /* Center all grid items */
+  }
+
+  .yx399bodyitem {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+    /* Add ease for smoother transitions */
+    justify-content: center;
+  }
+
+  .yx399bodyitem:hover {
+    transform: scale(1.05);
+    /* Zoom effect */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  }
+
+  .yx399bodyitemimg {
+    aspect-ratio: 2 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .yx399bodyitemimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Cover the entire area */
+  }
+
+  .yx399bodyitemtitle {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #444;
+    font-size: 1.1em;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .yx399body {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .yx399body {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
