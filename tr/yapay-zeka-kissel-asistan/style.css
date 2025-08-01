@@ -1,15 +1,15 @@
 
-  .awlprmenumobil {
+  .zmb4kmenumobil {
     display: none;
     cursor: pointer;
   }
-  .awlprChildren {
+  .zmb4kChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .awlpr {
+  .zmb4k {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .awlprtitle {
+  .zmb4ktitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .awlprtitlebody {
+  .zmb4ktitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .awlprtitlebodytitle {
+  .zmb4ktitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .awlprtitlebodylang {
+  .zmb4ktitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .awlprtitlebodylang ul {
+  .zmb4ktitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .awlprbody {
+  .zmb4kbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .awlprmenulist {
+  .zmb4kmenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .awlprmenubody {
+  .zmb4kmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .awlprmenulist ul {
+  .zmb4kmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .awlprmenulist ul a {
+  .zmb4kmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .awlprmenulist ul a:hover {
+  .zmb4kmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .awlprbodylogo {
+  .zmb4kbodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .awlprmenumobil {
+    .zmb4kmenumobil {
       display: none !important;
     }
-    .awlprmenulist {
+    .zmb4kmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .awlprmenumobil {
+    .zmb4kmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .awlprmenumobil div {
+    .zmb4kmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .awlprmenulist {
+    .zmb4kmenulist {
       display: none;
     }
-    .awlprbody {
+    .zmb4kbody {
       flex-direction: column;
       gap: 20px;
     }
-    .awlprChildren {
+    .zmb4kChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .awlprmenulist ul a {
+    .zmb4kmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .awlprmenu {
+    .zmb4kmenu {
       overflow-x: auto;
     }
-    .awlprmenulist ul {
+    .zmb4kmenulist ul {
       flex-direction: column;
     }
-    .awlprbodylogo {
+    .zmb4kbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .awlprmenulist ul a {
+    .zmb4kmenulist ul a {
       font-size: 14px;
     }
   }

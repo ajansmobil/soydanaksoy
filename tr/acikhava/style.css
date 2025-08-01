@@ -1,15 +1,15 @@
 
-  .jr790menumobil {
+  .w664umenumobil {
     display: none;
     cursor: pointer;
   }
-  .jr790Children {
+  .w664uChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .jr790 {
+  .w664u {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .jr790title {
+  .w664utitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .jr790titlebody {
+  .w664utitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .jr790titlebodytitle {
+  .w664utitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .jr790titlebodylang {
+  .w664utitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .jr790titlebodylang ul {
+  .w664utitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .jr790body {
+  .w664ubody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .jr790menulist {
+  .w664umenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .jr790menubody {
+  .w664umenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .jr790menulist ul {
+  .w664umenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .jr790menulist ul a {
+  .w664umenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,68 +86,68 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .jr790menulist ul a:hover {
+  .w664umenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .jr790bodylogo {
+  .w664ubodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .jr790menumobil {
+    .w664umenumobil {
       display: none !important;
     }
-    .jr790menulist {
+    .w664umenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .jr790menumobil {
+    .w664umenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .jr790menumobil div {
+    .w664umenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .jr790menulist {
+    .w664umenulist {
       display: none;
     }
-    .jr790body {
+    .w664ubody {
       flex-direction: column;
       gap: 20px;
     }
-    .jr790Children {
+    .w664uChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .jr790menulist ul a {
+    .w664umenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .jr790menu {
+    .w664umenu {
       overflow-x: auto;
     }
-    .jr790menulist ul {
+    .w664umenulist ul {
       flex-direction: column;
     }
-    .jr790bodylogo {
+    .w664ubodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .jr790menulist ul a {
+    .w664umenulist ul a {
       font-size: 14px;
     }
   }

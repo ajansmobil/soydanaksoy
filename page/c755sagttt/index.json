@@ -7,10 +7,18 @@
   "id": "c755sagttt",
   "url": "",
   "path": "hizmetlerimiz",
-  "index": 2,
+  "index": 1,
   "desing": {
     "header": [],
-    "body": [],
+    "body": [
+      "uqp2aa0",
+      "mn2hpj",
+      "uqp2aa1",
+      "mn2hpk",
+      "uqp2ab",
+      "mn2hpl",
+      "uqp2ac"
+    ],
     "footer": []
   },
   "pathnext": "",
@@ -27,6 +35,6 @@
   "spot": {
     "tr": ""
   },
-  "update": "2025-07-30T05:10:39.963Z",
+  "update": "2025-08-01T20:25:53.251Z",
   "date": "2025-07-30T05:10:39.963Z"
 }
