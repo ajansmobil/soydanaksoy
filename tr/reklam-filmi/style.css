@@ -1,15 +1,15 @@
 
-  .a63ximenumobil {
+  .lv25emenumobil {
     display: none;
     cursor: pointer;
   }
-  .a63xiChildren {
+  .lv25eChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .a63xi {
+  .lv25e {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .a63xititle {
+  .lv25etitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .a63xititlebody {
+  .lv25etitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .a63xititlebodytitle {
+  .lv25etitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .a63xititlebodylang {
+  .lv25etitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .a63xititlebodylang ul {
+  .lv25etitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .a63xibody {
+  .lv25ebody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .a63ximenulist {
+  .lv25emenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .a63ximenubody {
+  .lv25emenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .a63ximenulist ul {
+  .lv25emenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .a63ximenulist ul a {
+  .lv25emenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,74 +86,74 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .a63ximenulist ul a:hover {
+  .lv25emenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .a63xibodylogo {
+  .lv25ebodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .a63ximenumobil {
+    .lv25emenumobil {
       display: none !important;
     }
-    .a63ximenulist {
+    .lv25emenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .a63ximenumobil {
+    .lv25emenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .a63ximenumobil div {
+    .lv25emenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .a63ximenulist {
+    .lv25emenulist {
       display: none;
     }
-    .a63xibody {
+    .lv25ebody {
       flex-direction: column;
       gap: 20px;
     }
-    .a63xiChildren {
+    .lv25eChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .a63ximenulist ul a {
+    .lv25emenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .a63ximenu {
+    .lv25emenu {
       overflow-x: auto;
     }
-    .a63ximenulist ul {
+    .lv25emenulist ul {
       flex-direction: column;
     }
-    .a63xibodylogo {
+    .lv25ebodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .a63ximenulist ul a {
+    .lv25emenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .rayle-title {
+  .i0uov-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -166,7 +166,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .rayle-title::before {
+  .i0uov-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -181,13 +181,13 @@
     z-index: 1;
   }
 
-  .rayle-title span {
+  .i0uov-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .rayle {
+  .i0uov {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -195,14 +195,14 @@
     margin-top: 20px;
   }
 
-  .rayle-body {
+  .i0uov-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .rayle-img {
+  .i0uov-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -210,18 +210,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .rayle {
+    .i0uov {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .rayle-img {
+    .i0uov-img {
       width: 100%;
     }
 
-    .rayle-body {
+    .i0uov-body {
       width: 100%;
     }
   }
@@ -231,14 +231,14 @@
   }
 
 
-  .nekfx {
+  .wtp76 {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .nekfxbody {
+  .wtp76body {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -248,7 +248,7 @@
     /* Center all grid items */
   }
 
-  .nekfxbodyitem {
+  .wtp76bodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -263,13 +263,13 @@
     justify-content: center;
   }
 
-  .nekfxbodyitem:hover {
+  .wtp76bodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .nekfxbodyitemimg {
+  .wtp76bodyitemimg {
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -279,14 +279,14 @@
     margin-bottom: 10px;
   }
 
-  .nekfxbodyitemimg img {
+  .wtp76bodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .nekfxbodyitemtitle {
+  .wtp76bodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -296,13 +296,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .nekfxbody {
+    .wtp76body {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .nekfxbody {
+    .wtp76body {
       grid-template-columns: repeat(2, 1fr);
     }
   }

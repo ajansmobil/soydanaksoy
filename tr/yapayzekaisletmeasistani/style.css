@@ -1,15 +1,15 @@
 
-  .dkvlxmenumobil {
+  .ucdnymenumobil {
     display: none;
     cursor: pointer;
   }
-  .dkvlxChildren {
+  .ucdnyChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .dkvlx {
+  .ucdny {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .dkvlxtitle {
+  .ucdnytitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .dkvlxtitlebody {
+  .ucdnytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .dkvlxtitlebodytitle {
+  .ucdnytitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .dkvlxtitlebodylang {
+  .ucdnytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .dkvlxtitlebodylang ul {
+  .ucdnytitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .dkvlxbody {
+  .ucdnybody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .dkvlxmenulist {
+  .ucdnymenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .dkvlxmenubody {
+  .ucdnymenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .dkvlxmenulist ul {
+  .ucdnymenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .dkvlxmenulist ul a {
+  .ucdnymenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,74 +86,74 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .dkvlxmenulist ul a:hover {
+  .ucdnymenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .dkvlxbodylogo {
+  .ucdnybodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .dkvlxmenumobil {
+    .ucdnymenumobil {
       display: none !important;
     }
-    .dkvlxmenulist {
+    .ucdnymenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .dkvlxmenumobil {
+    .ucdnymenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .dkvlxmenumobil div {
+    .ucdnymenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .dkvlxmenulist {
+    .ucdnymenulist {
       display: none;
     }
-    .dkvlxbody {
+    .ucdnybody {
       flex-direction: column;
       gap: 20px;
     }
-    .dkvlxChildren {
+    .ucdnyChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .dkvlxmenulist ul a {
+    .ucdnymenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .dkvlxmenu {
+    .ucdnymenu {
       overflow-x: auto;
     }
-    .dkvlxmenulist ul {
+    .ucdnymenulist ul {
       flex-direction: column;
     }
-    .dkvlxbodylogo {
+    .ucdnybodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .dkvlxmenulist ul a {
+    .ucdnymenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .kf9t6-title {
+  .fe3cm-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -166,7 +166,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .kf9t6-title::before {
+  .fe3cm-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -181,13 +181,13 @@
     z-index: 1;
   }
 
-  .kf9t6-title span {
+  .fe3cm-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .kf9t6 {
+  .fe3cm {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -195,14 +195,14 @@
     margin-top: 20px;
   }
 
-  .kf9t6-body {
+  .fe3cm-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .kf9t6-img {
+  .fe3cm-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -210,18 +210,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .kf9t6 {
+    .fe3cm {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .kf9t6-img {
+    .fe3cm-img {
       width: 100%;
     }
 
-    .kf9t6-body {
+    .fe3cm-body {
       width: 100%;
     }
   }
@@ -231,14 +231,14 @@
   }
 
 
-  .yu2ku {
+  .azlcv {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .yu2kubody {
+  .azlcvbody {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -248,7 +248,7 @@
     /* Center all grid items */
   }
 
-  .yu2kubodyitem {
+  .azlcvbodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -263,13 +263,13 @@
     justify-content: center;
   }
 
-  .yu2kubodyitem:hover {
+  .azlcvbodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .yu2kubodyitemimg {
+  .azlcvbodyitemimg {
     aspect-ratio: 2 / 1;
     display: flex;
     justify-content: center;
@@ -279,14 +279,14 @@
     margin-bottom: 10px;
   }
 
-  .yu2kubodyitemimg img {
+  .azlcvbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .yu2kubodyitemtitle {
+  .azlcvbodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -296,13 +296,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .yu2kubody {
+    .azlcvbody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .yu2kubody {
+    .azlcvbody {
       grid-template-columns: repeat(2, 1fr);
     }
   }
