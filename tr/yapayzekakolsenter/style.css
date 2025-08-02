@@ -1,15 +1,15 @@
 
-  .lhbfnmenumobil {
+  .fajhxmenumobil {
     display: none;
     cursor: pointer;
   }
-  .lhbfnChildren {
+  .fajhxChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .lhbfn {
+  .fajhx {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .lhbfntitle {
+  .fajhxtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .lhbfntitlebody {
+  .fajhxtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .lhbfntitlebodytitle {
+  .fajhxtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .lhbfntitlebodylang {
+  .fajhxtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .lhbfntitlebodylang ul {
+  .fajhxtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .lhbfnbody {
+  .fajhxbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .lhbfnmenulist {
+  .fajhxmenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .lhbfnmenubody {
+  .fajhxmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .lhbfnmenulist ul {
+  .fajhxmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .lhbfnmenulist ul a {
+  .fajhxmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,74 +86,74 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .lhbfnmenulist ul a:hover {
+  .fajhxmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .lhbfnbodylogo {
+  .fajhxbodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .lhbfnmenumobil {
+    .fajhxmenumobil {
       display: none !important;
     }
-    .lhbfnmenulist {
+    .fajhxmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .lhbfnmenumobil {
+    .fajhxmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .lhbfnmenumobil div {
+    .fajhxmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .lhbfnmenulist {
+    .fajhxmenulist {
       display: none;
     }
-    .lhbfnbody {
+    .fajhxbody {
       flex-direction: column;
       gap: 20px;
     }
-    .lhbfnChildren {
+    .fajhxChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .lhbfnmenulist ul a {
+    .fajhxmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .lhbfnmenu {
+    .fajhxmenu {
       overflow-x: auto;
     }
-    .lhbfnmenulist ul {
+    .fajhxmenulist ul {
       flex-direction: column;
     }
-    .lhbfnbodylogo {
+    .fajhxbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .lhbfnmenulist ul a {
+    .fajhxmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .b7a9i-title {
+  .yqkw8-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -166,7 +166,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .b7a9i-title::before {
+  .yqkw8-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -181,13 +181,13 @@
     z-index: 1;
   }
 
-  .b7a9i-title span {
+  .yqkw8-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .b7a9i {
+  .yqkw8 {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -195,14 +195,14 @@
     margin-top: 20px;
   }
 
-  .b7a9i-body {
+  .yqkw8-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .b7a9i-img {
+  .yqkw8-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -210,18 +210,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .b7a9i {
+    .yqkw8 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .b7a9i-img {
+    .yqkw8-img {
       width: 100%;
     }
 
-    .b7a9i-body {
+    .yqkw8-body {
       width: 100%;
     }
   }
@@ -231,14 +231,14 @@
   }
 
 
-  .lqeo1 {
+  .gmc78 {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .lqeo1body {
+  .gmc78body {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -248,7 +248,7 @@
     /* Center all grid items */
   }
 
-  .lqeo1bodyitem {
+  .gmc78bodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -263,13 +263,13 @@
     justify-content: center;
   }
 
-  .lqeo1bodyitem:hover {
+  .gmc78bodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .lqeo1bodyitemimg {
+  .gmc78bodyitemimg {
     aspect-ratio: 2 / 1;
     display: flex;
     justify-content: center;
@@ -279,14 +279,14 @@
     margin-bottom: 10px;
   }
 
-  .lqeo1bodyitemimg img {
+  .gmc78bodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .lqeo1bodyitemtitle {
+  .gmc78bodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -296,13 +296,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .lqeo1body {
+    .gmc78body {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .lqeo1body {
+    .gmc78body {
       grid-template-columns: repeat(2, 1fr);
     }
   }

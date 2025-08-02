@@ -1,15 +1,15 @@
 
-  .hc9x6menumobil {
+  .skt2kmenumobil {
     display: none;
     cursor: pointer;
   }
-  .hc9x6Children {
+  .skt2kChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .hc9x6 {
+  .skt2k {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,41 +17,41 @@
     justify-content: center;
     background-color: #e9e9e9;
   }
-  .hc9x6title {
+  .skt2ktitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .hc9x6titlebody {
+  .skt2ktitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .hc9x6titlebodytitle {
+  .skt2ktitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .hc9x6titlebodylang {
+  .skt2ktitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .hc9x6titlebodylang ul {
+  .skt2ktitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .hc9x6body {
+  .skt2kbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .hc9x6menulist {
+  .skt2kmenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -59,14 +59,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .hc9x6menubody {
+  .skt2kmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .hc9x6menulist ul {
+  .skt2kmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -75,7 +75,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .hc9x6menulist ul a {
+  .skt2kmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -86,74 +86,74 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .hc9x6menulist ul a:hover {
+  .skt2kmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .hc9x6bodylogo {
+  .skt2kbodylogo {
     height: 100px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .hc9x6menumobil {
+    .skt2kmenumobil {
       display: none !important;
     }
-    .hc9x6menulist {
+    .skt2kmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .hc9x6menumobil {
+    .skt2kmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #000;
       width: 100%;
     }
-    .hc9x6menumobil div {
+    .skt2kmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .hc9x6menulist {
+    .skt2kmenulist {
       display: none;
     }
-    .hc9x6body {
+    .skt2kbody {
       flex-direction: column;
       gap: 20px;
     }
-    .hc9x6Children {
+    .skt2kChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .hc9x6menulist ul a {
+    .skt2kmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .hc9x6menu {
+    .skt2kmenu {
       overflow-x: auto;
     }
-    .hc9x6menulist ul {
+    .skt2kmenulist ul {
       flex-direction: column;
     }
-    .hc9x6bodylogo {
+    .skt2kbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .hc9x6menulist ul a {
+    .skt2kmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .qikwl-title {
+  .zas5y-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -166,7 +166,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .qikwl-title::before {
+  .zas5y-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -181,13 +181,13 @@
     z-index: 1;
   }
 
-  .qikwl-title span {
+  .zas5y-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .qikwl {
+  .zas5y {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -195,14 +195,14 @@
     margin-top: 20px;
   }
 
-  .qikwl-body {
+  .zas5y-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .qikwl-img {
+  .zas5y-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -210,18 +210,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .qikwl {
+    .zas5y {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .qikwl-img {
+    .zas5y-img {
       width: 100%;
     }
 
-    .qikwl-body {
+    .zas5y-body {
       width: 100%;
     }
   }
@@ -231,14 +231,14 @@
   }
 
 
-  .q0f1g {
+  .dywcu {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .q0f1gbody {
+  .dywcubody {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -248,7 +248,7 @@
     /* Center all grid items */
   }
 
-  .q0f1gbodyitem {
+  .dywcubodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -263,13 +263,13 @@
     justify-content: center;
   }
 
-  .q0f1gbodyitem:hover {
+  .dywcubodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .q0f1gbodyitemimg {
+  .dywcubodyitemimg {
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -279,14 +279,14 @@
     margin-bottom: 10px;
   }
 
-  .q0f1gbodyitemimg img {
+  .dywcubodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .q0f1gbodyitemtitle {
+  .dywcubodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -296,13 +296,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .q0f1gbody {
+    .dywcubody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .q0f1gbody {
+    .dywcubody {
       grid-template-columns: repeat(2, 1fr);
     }
   }
