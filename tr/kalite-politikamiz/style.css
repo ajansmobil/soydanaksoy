@@ -1,17 +1,17 @@
 
-  .r8peamenumobil {
+  .oxo9fmenumobil {
     display: none;
     cursor: pointer;
   }
 
-  .r8peaChildren {
+  .oxo9fChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .r8pea {
+  .oxo9f {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     background-color: #e9e9e9;
   }
 
-  .r8peatitle {
+  .oxo9ftitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -28,7 +28,7 @@
     justify-content: center;
   }
 
-  .r8peatitlebody {
+  .oxo9ftitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -36,31 +36,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .r8peatitlebodytitle {
+  .oxo9ftitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .r8peatitlebodylang {
+  .oxo9ftitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .r8peatitlebodylang ul {
+  .oxo9ftitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .r8peabody {
+  .oxo9fbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .r8peamenulist {
+  .oxo9fmenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -69,7 +69,7 @@
     width: 100%;
   }
 
-  .r8peamenubody {
+  .oxo9fmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -77,7 +77,7 @@
     justify-content: center;
   }
 
-  .r8peamenulist ul {
+  .oxo9fmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -87,7 +87,7 @@
     overflow-x: auto;
   }
 
-  .r8peamenulist ul a {
+  .oxo9fmenulist ul a {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -99,14 +99,14 @@
     white-space: nowrap;
   }
 
-  .r8peamenulist ul a:hover {
+  .oxo9fmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .r8peamenuitem {
+  .oxo9fmenuitem {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -118,30 +118,30 @@
     white-space: nowrap;
   }
 
-  .r8peamenuactive {
+  .oxo9fmenuactive {
     background-color: #e0e0e0 !important;
     border-radius: 5px;
     color: #000 !important;
     font-weight: bold;
   }
 
-  .r8peabodylogo {
+  .oxo9fbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .r8peamenumobil {
+    .oxo9fmenumobil {
       display: none !important;
     }
 
-    .r8peamenulist {
+    .oxo9fmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .r8peamenumobil {
+    .oxo9fmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -149,22 +149,22 @@
       width: 100%;
     }
 
-    .r8peamenumobil div {
+    .oxo9fmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .r8peamenulist {
+    .oxo9fmenulist {
       display: none;
     }
 
-    .r8peabody {
+    .oxo9fbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .r8peaChildren {
+    .oxo9fChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -172,19 +172,19 @@
       justify-content: center;
     }
 
-    .r8peamenulist ul a {
+    .oxo9fmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .r8peamenu {
+    .oxo9fmenu {
       overflow-x: auto;
     }
 
-    .r8peamenulist ul {
+    .oxo9fmenulist ul {
       flex-direction: column;
     }
 
-    .r8peabodylogo {
+    .oxo9fbodylogo {
       max-height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -192,7 +192,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .r8peamenulist ul a {
+    .oxo9fmenulist ul a {
       font-size: 14px;
     }
   }
@@ -202,7 +202,7 @@
     justify-content: start;
   }
 
-  .y07d0 {
+  .nywzp {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -210,7 +210,7 @@
     position: relative;
   }
 
-  .y07d0-menu-btn {
+  .nywzp-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -222,11 +222,11 @@
     align-items: center;
   }
 
-  .y07d0-menu-btn i {
+  .nywzp-menu-btn i {
     font-size: 20px;
   }
 
-  .y07d0-menu {
+  .nywzp-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -237,28 +237,28 @@
     float: left;
   }
 
-  .y07d0-desc {
+  .nywzp-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .y07d0-menu > a {
+  .nywzp-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .y07d0-menu > .active,
-  .y07d0-menu > a:hover {
+  .nywzp-menu > .active,
+  .nywzp-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .y07d0-desc-menu {
+  .nywzp-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -266,19 +266,19 @@
     border-radius: 5px;
   }
 
-  .y07d0-desc-menu > div {
+  .nywzp-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .y07d0-desc-body {
+  .nywzp-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .y07d0-title {
+  .nywzp-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -291,7 +291,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .y07d0-title::before {
+  .nywzp-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -306,44 +306,44 @@
     z-index: 1;
   }
 
-  .y07d0-title span {
+  .nywzp-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .y07d0-body {
+  .nywzp-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .y07d0-img {
+  .nywzp-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .y07d0-img img {
+  .nywzp-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .y07d0-desc {
+    .nywzp-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .y07d0-menu-btn {
+    .nywzp-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .y07d0 {
+    .nywzp {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -352,17 +352,17 @@
       margin-top: 0px;
     }
 
-    .y07d0-img {
+    .nywzp-img {
       width: 100%;
     }
 
-    .y07d0-body {
+    .nywzp-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .y07d0-menu {
+    .nywzp-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -370,11 +370,11 @@
       display: none;
     }
 
-    .y07d0-menu.active {
+    .nywzp-menu.active {
       display: flex;
     }
 
-    .y07d0-desc {
+    .nywzp-desc {
       width: 100% !important;
       order: 2;
     }

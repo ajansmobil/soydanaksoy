@@ -1,17 +1,17 @@
 
-  .vfslmmenumobil {
+  .emp8lmenumobil {
     display: none;
     cursor: pointer;
   }
 
-  .vfslmChildren {
+  .emp8lChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .vfslm {
+  .emp8l {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     background-color: #e9e9e9;
   }
 
-  .vfslmtitle {
+  .emp8ltitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -28,7 +28,7 @@
     justify-content: center;
   }
 
-  .vfslmtitlebody {
+  .emp8ltitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -36,31 +36,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .vfslmtitlebodytitle {
+  .emp8ltitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .vfslmtitlebodylang {
+  .emp8ltitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .vfslmtitlebodylang ul {
+  .emp8ltitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .vfslmbody {
+  .emp8lbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .vfslmmenulist {
+  .emp8lmenulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -69,7 +69,7 @@
     width: 100%;
   }
 
-  .vfslmmenubody {
+  .emp8lmenubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -77,7 +77,7 @@
     justify-content: center;
   }
 
-  .vfslmmenulist ul {
+  .emp8lmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -87,7 +87,7 @@
     overflow-x: auto;
   }
 
-  .vfslmmenulist ul a {
+  .emp8lmenulist ul a {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -99,14 +99,14 @@
     white-space: nowrap;
   }
 
-  .vfslmmenulist ul a:hover {
+  .emp8lmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .vfslmmenuitem {
+  .emp8lmenuitem {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -118,30 +118,30 @@
     white-space: nowrap;
   }
 
-  .vfslmmenuactive {
+  .emp8lmenuactive {
     background-color: #e0e0e0 !important;
     border-radius: 5px;
     color: #000 !important;
     font-weight: bold;
   }
 
-  .vfslmbodylogo {
+  .emp8lbodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .vfslmmenumobil {
+    .emp8lmenumobil {
       display: none !important;
     }
 
-    .vfslmmenulist {
+    .emp8lmenulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .vfslmmenumobil {
+    .emp8lmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -149,22 +149,22 @@
       width: 100%;
     }
 
-    .vfslmmenumobil div {
+    .emp8lmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .vfslmmenulist {
+    .emp8lmenulist {
       display: none;
     }
 
-    .vfslmbody {
+    .emp8lbody {
       flex-direction: column;
       gap: 20px;
     }
 
-    .vfslmChildren {
+    .emp8lChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -172,19 +172,19 @@
       justify-content: center;
     }
 
-    .vfslmmenulist ul a {
+    .emp8lmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .vfslmmenu {
+    .emp8lmenu {
       overflow-x: auto;
     }
 
-    .vfslmmenulist ul {
+    .emp8lmenulist ul {
       flex-direction: column;
     }
 
-    .vfslmbodylogo {
+    .emp8lbodylogo {
       max-height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -192,13 +192,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .vfslmmenulist ul a {
+    .emp8lmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .iiefx-title {
+  .dggrd-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -211,7 +211,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .iiefx-title::before {
+  .dggrd-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -226,13 +226,13 @@
     z-index: 1;
   }
 
-  .iiefx-title span {
+  .dggrd-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .iiefx {
+  .dggrd {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -240,14 +240,14 @@
     margin-top: 20px;
   }
 
-  .iiefx-body {
+  .dggrd-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .iiefx-img {
+  .dggrd-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -255,18 +255,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .iiefx {
+    .dggrd {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .iiefx-img {
+    .dggrd-img {
       width: 100%;
     }
 
-    .iiefx-body {
+    .dggrd-body {
       width: 100%;
     }
   }
@@ -276,14 +276,14 @@
   }
 
 
-  .omc2w {
+  .kino3 {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .omc2wbody {
+  .kino3body {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -293,7 +293,7 @@
     /* Center all grid items */
   }
 
-  .omc2wbodyitem {
+  .kino3bodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -308,13 +308,13 @@
     justify-content: center;
   }
 
-  .omc2wbodyitem:hover {
+  .kino3bodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .omc2wbodyitemimg {
+  .kino3bodyitemimg {
     aspect-ratio: 2 / 1;
     display: flex;
     justify-content: center;
@@ -324,14 +324,14 @@
     margin-bottom: 10px;
   }
 
-  .omc2wbodyitemimg img {
+  .kino3bodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .omc2wbodyitemtitle {
+  .kino3bodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -341,13 +341,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .omc2wbody {
+    .kino3body {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .omc2wbody {
+    .kino3body {
       grid-template-columns: repeat(2, 1fr);
     }
   }

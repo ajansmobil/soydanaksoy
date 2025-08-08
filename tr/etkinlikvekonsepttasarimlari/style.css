@@ -1,17 +1,17 @@
 
-  .s6b6rmenumobil {
+  .zpcs6menumobil {
     display: none;
     cursor: pointer;
   }
 
-  .s6b6rChildren {
+  .zpcs6Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .s6b6r {
+  .zpcs6 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     background-color: #e9e9e9;
   }
 
-  .s6b6rtitle {
+  .zpcs6title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -28,7 +28,7 @@
     justify-content: center;
   }
 
-  .s6b6rtitlebody {
+  .zpcs6titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -36,31 +36,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .s6b6rtitlebodytitle {
+  .zpcs6titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .s6b6rtitlebodylang {
+  .zpcs6titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .s6b6rtitlebodylang ul {
+  .zpcs6titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .s6b6rbody {
+  .zpcs6body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .s6b6rmenulist {
+  .zpcs6menulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -69,7 +69,7 @@
     width: 100%;
   }
 
-  .s6b6rmenubody {
+  .zpcs6menubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -77,7 +77,7 @@
     justify-content: center;
   }
 
-  .s6b6rmenulist ul {
+  .zpcs6menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -87,7 +87,7 @@
     overflow-x: auto;
   }
 
-  .s6b6rmenulist ul a {
+  .zpcs6menulist ul a {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -99,14 +99,14 @@
     white-space: nowrap;
   }
 
-  .s6b6rmenulist ul a:hover {
+  .zpcs6menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .s6b6rmenuitem {
+  .zpcs6menuitem {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -118,30 +118,30 @@
     white-space: nowrap;
   }
 
-  .s6b6rmenuactive {
+  .zpcs6menuactive {
     background-color: #e0e0e0 !important;
     border-radius: 5px;
     color: #000 !important;
     font-weight: bold;
   }
 
-  .s6b6rbodylogo {
+  .zpcs6bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .s6b6rmenumobil {
+    .zpcs6menumobil {
       display: none !important;
     }
 
-    .s6b6rmenulist {
+    .zpcs6menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .s6b6rmenumobil {
+    .zpcs6menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -149,22 +149,22 @@
       width: 100%;
     }
 
-    .s6b6rmenumobil div {
+    .zpcs6menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .s6b6rmenulist {
+    .zpcs6menulist {
       display: none;
     }
 
-    .s6b6rbody {
+    .zpcs6body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .s6b6rChildren {
+    .zpcs6Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -172,19 +172,19 @@
       justify-content: center;
     }
 
-    .s6b6rmenulist ul a {
+    .zpcs6menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .s6b6rmenu {
+    .zpcs6menu {
       overflow-x: auto;
     }
 
-    .s6b6rmenulist ul {
+    .zpcs6menulist ul {
       flex-direction: column;
     }
 
-    .s6b6rbodylogo {
+    .zpcs6bodylogo {
       max-height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -192,13 +192,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .s6b6rmenulist ul a {
+    .zpcs6menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .phq38-title {
+  .jlrg8-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -211,7 +211,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .phq38-title::before {
+  .jlrg8-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -226,13 +226,13 @@
     z-index: 1;
   }
 
-  .phq38-title span {
+  .jlrg8-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .phq38 {
+  .jlrg8 {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -240,14 +240,14 @@
     margin-top: 20px;
   }
 
-  .phq38-body {
+  .jlrg8-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .phq38-img {
+  .jlrg8-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -255,18 +255,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .phq38 {
+    .jlrg8 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .phq38-img {
+    .jlrg8-img {
       width: 100%;
     }
 
-    .phq38-body {
+    .jlrg8-body {
       width: 100%;
     }
   }
@@ -276,14 +276,14 @@
   }
 
 
-  .quain {
+  .x2pwg {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .quainbody {
+  .x2pwgbody {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -293,7 +293,7 @@
     /* Center all grid items */
   }
 
-  .quainbodyitem {
+  .x2pwgbodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -308,13 +308,13 @@
     justify-content: center;
   }
 
-  .quainbodyitem:hover {
+  .x2pwgbodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .quainbodyitemimg {
+  .x2pwgbodyitemimg {
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -324,14 +324,14 @@
     margin-bottom: 10px;
   }
 
-  .quainbodyitemimg img {
+  .x2pwgbodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .quainbodyitemtitle {
+  .x2pwgbodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -341,13 +341,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .quainbody {
+    .x2pwgbody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .quainbody {
+    .x2pwgbody {
       grid-template-columns: repeat(2, 1fr);
     }
   }

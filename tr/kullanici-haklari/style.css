@@ -1,17 +1,17 @@
 
-  .yemevmenumobil {
+  .drrs5menumobil {
     display: none;
     cursor: pointer;
   }
 
-  .yemevChildren {
+  .drrs5Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .yemev {
+  .drrs5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     background-color: #e9e9e9;
   }
 
-  .yemevtitle {
+  .drrs5title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -28,7 +28,7 @@
     justify-content: center;
   }
 
-  .yemevtitlebody {
+  .drrs5titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -36,31 +36,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .yemevtitlebodytitle {
+  .drrs5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .yemevtitlebodylang {
+  .drrs5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .yemevtitlebodylang ul {
+  .drrs5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .yemevbody {
+  .drrs5body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .yemevmenulist {
+  .drrs5menulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -69,7 +69,7 @@
     width: 100%;
   }
 
-  .yemevmenubody {
+  .drrs5menubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -77,7 +77,7 @@
     justify-content: center;
   }
 
-  .yemevmenulist ul {
+  .drrs5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -87,7 +87,7 @@
     overflow-x: auto;
   }
 
-  .yemevmenulist ul a {
+  .drrs5menulist ul a {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -99,14 +99,14 @@
     white-space: nowrap;
   }
 
-  .yemevmenulist ul a:hover {
+  .drrs5menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .yemevmenuitem {
+  .drrs5menuitem {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -118,30 +118,30 @@
     white-space: nowrap;
   }
 
-  .yemevmenuactive {
+  .drrs5menuactive {
     background-color: #e0e0e0 !important;
     border-radius: 5px;
     color: #000 !important;
     font-weight: bold;
   }
 
-  .yemevbodylogo {
+  .drrs5bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .yemevmenumobil {
+    .drrs5menumobil {
       display: none !important;
     }
 
-    .yemevmenulist {
+    .drrs5menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .yemevmenumobil {
+    .drrs5menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -149,22 +149,22 @@
       width: 100%;
     }
 
-    .yemevmenumobil div {
+    .drrs5menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .yemevmenulist {
+    .drrs5menulist {
       display: none;
     }
 
-    .yemevbody {
+    .drrs5body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .yemevChildren {
+    .drrs5Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -172,19 +172,19 @@
       justify-content: center;
     }
 
-    .yemevmenulist ul a {
+    .drrs5menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .yemevmenu {
+    .drrs5menu {
       overflow-x: auto;
     }
 
-    .yemevmenulist ul {
+    .drrs5menulist ul {
       flex-direction: column;
     }
 
-    .yemevbodylogo {
+    .drrs5bodylogo {
       max-height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -192,7 +192,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .yemevmenulist ul a {
+    .drrs5menulist ul a {
       font-size: 14px;
     }
   }
@@ -202,7 +202,7 @@
     justify-content: start;
   }
 
-  .pu5yn {
+  .nbmbq {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -210,7 +210,7 @@
     position: relative;
   }
 
-  .pu5yn-menu-btn {
+  .nbmbq-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -222,11 +222,11 @@
     align-items: center;
   }
 
-  .pu5yn-menu-btn i {
+  .nbmbq-menu-btn i {
     font-size: 20px;
   }
 
-  .pu5yn-menu {
+  .nbmbq-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -237,28 +237,28 @@
     float: left;
   }
 
-  .pu5yn-desc {
+  .nbmbq-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .pu5yn-menu > a {
+  .nbmbq-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .pu5yn-menu > .active,
-  .pu5yn-menu > a:hover {
+  .nbmbq-menu > .active,
+  .nbmbq-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .pu5yn-desc-menu {
+  .nbmbq-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -266,19 +266,19 @@
     border-radius: 5px;
   }
 
-  .pu5yn-desc-menu > div {
+  .nbmbq-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .pu5yn-desc-body {
+  .nbmbq-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .pu5yn-title {
+  .nbmbq-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -291,7 +291,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .pu5yn-title::before {
+  .nbmbq-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -306,44 +306,44 @@
     z-index: 1;
   }
 
-  .pu5yn-title span {
+  .nbmbq-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .pu5yn-body {
+  .nbmbq-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .pu5yn-img {
+  .nbmbq-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .pu5yn-img img {
+  .nbmbq-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .pu5yn-desc {
+    .nbmbq-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .pu5yn-menu-btn {
+    .nbmbq-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .pu5yn {
+    .nbmbq {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -352,17 +352,17 @@
       margin-top: 0px;
     }
 
-    .pu5yn-img {
+    .nbmbq-img {
       width: 100%;
     }
 
-    .pu5yn-body {
+    .nbmbq-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .pu5yn-menu {
+    .nbmbq-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -370,11 +370,11 @@
       display: none;
     }
 
-    .pu5yn-menu.active {
+    .nbmbq-menu.active {
       display: flex;
     }
 
-    .pu5yn-desc {
+    .nbmbq-desc {
       width: 100% !important;
       order: 2;
     }
