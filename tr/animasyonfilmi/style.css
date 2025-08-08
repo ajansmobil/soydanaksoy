@@ -1,17 +1,17 @@
 
-  .reqvtmenumobil {
+  .we6w3menumobil {
     display: none;
     cursor: pointer;
   }
 
-  .reqvtChildren {
+  .we6w3Children {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
 
-  .reqvt {
+  .we6w3 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
     background-color: #e9e9e9;
   }
 
-  .reqvttitle {
+  .we6w3title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -28,7 +28,7 @@
     justify-content: center;
   }
 
-  .reqvttitlebody {
+  .we6w3titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -36,31 +36,31 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .reqvttitlebodytitle {
+  .we6w3titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .reqvttitlebodylang {
+  .we6w3titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .reqvttitlebodylang ul {
+  .we6w3titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .reqvtbody {
+  .we6w3body {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
 
-  .reqvtmenulist {
+  .we6w3menulist {
     display: block;
     background-color: #000;
     padding: 10px;
@@ -69,7 +69,7 @@
     width: 100%;
   }
 
-  .reqvtmenubody {
+  .we6w3menubody {
     width: 100%;
     background-color: #000;
     display: flex;
@@ -77,7 +77,7 @@
     justify-content: center;
   }
 
-  .reqvtmenulist ul {
+  .we6w3menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -87,7 +87,7 @@
     overflow-x: auto;
   }
 
-  .reqvtmenulist ul a {
+  .we6w3menulist ul a {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -99,14 +99,14 @@
     white-space: nowrap;
   }
 
-  .reqvtmenulist ul a:hover {
+  .we6w3menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .reqvtmenuitem {
+  .we6w3menuitem {
     padding: 8px;
     font-size: 16px;
     color: #fff;
@@ -118,30 +118,30 @@
     white-space: nowrap;
   }
 
-  .reqvtmenuactive {
+  .we6w3menuactive {
     background-color: #e0e0e0 !important;
     border-radius: 5px;
     color: #000 !important;
     font-weight: bold;
   }
 
-  .reqvtbodylogo {
+  .we6w3bodylogo {
     height: 100px;
     max-width: 90vw;
   }
 
   @media screen and (min-width: 1024px) {
-    .reqvtmenumobil {
+    .we6w3menumobil {
       display: none !important;
     }
 
-    .reqvtmenulist {
+    .we6w3menulist {
       display: flex !important;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .reqvtmenumobil {
+    .we6w3menumobil {
       display: flex;
       align-items: center;
       justify-content: end;
@@ -149,22 +149,22 @@
       width: 100%;
     }
 
-    .reqvtmenumobil div {
+    .we6w3menumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
 
-    .reqvtmenulist {
+    .we6w3menulist {
       display: none;
     }
 
-    .reqvtbody {
+    .we6w3body {
       flex-direction: column;
       gap: 20px;
     }
 
-    .reqvtChildren {
+    .we6w3Children {
       width: 100%;
       gap: 0px;
       flex-direction: column;
@@ -172,19 +172,19 @@
       justify-content: center;
     }
 
-    .reqvtmenulist ul a {
+    .we6w3menulist ul a {
       padding: 10px 0px 10px 0px;
     }
 
-    .reqvtmenu {
+    .we6w3menu {
       overflow-x: auto;
     }
 
-    .reqvtmenulist ul {
+    .we6w3menulist ul {
       flex-direction: column;
     }
 
-    .reqvtbodylogo {
+    .we6w3bodylogo {
       max-height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -192,13 +192,13 @@
   }
 
   @media screen and (max-width: 768px) {
-    .reqvtmenulist ul a {
+    .we6w3menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .f4hof-title {
+  .fhcfj-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -211,7 +211,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .f4hof-title::before {
+  .fhcfj-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -226,13 +226,13 @@
     z-index: 1;
   }
 
-  .f4hof-title span {
+  .fhcfj-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .f4hof {
+  .fhcfj {
     width: var(--max);
     display: flex;
     flex-direction: row;
@@ -240,14 +240,14 @@
     margin-top: 20px;
   }
 
-  .f4hof-body {
+  .fhcfj-body {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .f4hof-img {
+  .fhcfj-img {
     flex: 1;
     display: flex;
     align-items: start;
@@ -255,18 +255,18 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .f4hof {
+    .fhcfj {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .f4hof-img {
+    .fhcfj-img {
       width: 100%;
     }
 
-    .f4hof-body {
+    .fhcfj-body {
       width: 100%;
     }
   }
@@ -276,14 +276,14 @@
   }
 
 
-  .d5rva {
+  .u5scu {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .d5rvabody {
+  .u5scubody {
     width: var(--max);
     display: grid;
     gap: 20px;
@@ -293,7 +293,7 @@
     /* Center all grid items */
   }
 
-  .d5rvabodyitem {
+  .u5scubodyitem {
     position: relative;
     background-color: #ffffff;
     border-radius: 10px;
@@ -308,13 +308,13 @@
     justify-content: center;
   }
 
-  .d5rvabodyitem:hover {
+  .u5scubodyitem:hover {
     transform: scale(1.05);
     /* Zoom effect */
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
   }
 
-  .d5rvabodyitemimg {
+  .u5scubodyitemimg {
     aspect-ratio: 1 / 1;
     display: flex;
     justify-content: center;
@@ -324,14 +324,14 @@
     margin-bottom: 10px;
   }
 
-  .d5rvabodyitemimg img {
+  .u5scubodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     /* Cover the entire area */
   }
 
-  .d5rvabodyitemtitle {
+  .u5scubodyitemtitle {
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -341,13 +341,13 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .d5rvabody {
+    .u5scubody {
       grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media screen and (max-width: 768px) {
-    .d5rvabody {
+    .u5scubody {
       grid-template-columns: repeat(2, 1fr);
     }
   }
