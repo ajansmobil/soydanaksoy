@@ -1,0 +1,102 @@
+{
+  "name": "Yapayzeka",
+  "path": "services",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Yapayzeka İşletme Asistanı"
+      },
+      "status": "play",
+      "category": "",
+      "id": "cjynchqteb",
+      "externalUrl": "",
+      "path": "yapayzekaisletmeasistani",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-08T04:43:39.282Z",
+      "date": "2025-06-23T11:08:02.013Z",
+      "img": "y3vtt.png",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Yapayzeka Kolsenter"
+      },
+      "status": "play",
+      "category": "",
+      "id": "e9rcjkg6o4",
+      "externalUrl": "",
+      "path": "yapayzekakolsenter",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-08T04:43:39.294Z",
+      "date": "2025-06-23T11:06:46.181Z",
+      "img": "k54kp.png",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Yapay Zeka Kişsel Asistan"
+      },
+      "status": "play",
+      "category": "",
+      "id": "nnlmkp2elm",
+      "externalUrl": "",
+      "path": "yapayzekakisselasistan",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "i4ftk.png",
+      "desc": {}
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [
+      "yplqx1",
+      "uqp2ab"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "detail": true,
+    "bgimg": true,
+    "img": true,
+    "spot": true,
+    "body": false
+  }
+}

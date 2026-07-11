@@ -1,0 +1,112 @@
+{
+  "name": "Medya Satın Alma",
+  "path": "satinalma",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Açıkhava"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ye12am4djy",
+      "externalUrl": "",
+      "path": "acikhava",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-08T04:43:39.320Z",
+      "date": "2025-06-23T11:13:11.029Z",
+      "img": "kpjsl.png",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Dijital"
+      },
+      "status": "play",
+      "category": "",
+      "id": "p06euizo0z",
+      "externalUrl": "",
+      "path": "dijital",
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-08T04:43:39.333Z",
+      "date": "2025-06-23T11:14:19.026Z",
+      "img": "kzlsx.png",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "TV & Radyo & Gazete"
+      },
+      "status": "play",
+      "category": "",
+      "id": "p9a5wi18qt",
+      "externalUrl": "",
+      "path": "tvradyogazetedijital",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-08T04:43:39.345Z",
+      "date": "2025-06-23T11:13:38.326Z",
+      "img": "odg14.png",
+      "desc": {}
+    }
+  ],
+  "index": 2,
+  "desing": {
+    "header": [],
+    "body": [
+      "yplqx1",
+      "uqp2aa1"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "detail": true,
+    "img": true,
+    "bgimg": true
+  }
+}

@@ -1,107 +1,415 @@
 <!doctype html>
-<html lang="tr">
+<html lang="tr" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
-  <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   <title>Soydan Aksoy</title>
   <meta name="description" content="" />
   <meta name="keywords" content="" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://soydanaksoy.com.tr/tr/" />
+
+  <meta property="og:type" content="website" />
   <meta property="og:title" content="Soydan Aksoy" />
   <meta property="og:description" content="" />
-  <meta property="og:image" content="https://soydanaksoy.com/img/icon.png" />
-  <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=uye65" />
-  <link rel="shortcut icon" href="/img/icon.png?v=uye65" type="image/png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
-  <script src="/src/swiper-bundle.min.js"></script>
+  <meta property="og:image" content="https://soydanaksoy.com.tr/img/icon.png" />
+  <meta property="og:url" content="https://soydanaksoy.com.tr/tr/" />
+  <meta property="og:site_name" content="Soydan Aksoy" />
+  <meta property="og:locale" content="tr_TR" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Soydan Aksoy" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image" content="https://soydanaksoy.com.tr/img/icon.png" />
+
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=kemb6" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=kemb6" />
+  <link rel="preload" href="/src/cookie.css?v=kemb6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="/src/cookie.css?v=kemb6" />
+    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
+  </noscript>
+  <link rel="shortcut icon" href="/img/icon.png?v=kemb6" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Soydan Aksoy",
+  "description": "",
+  "url": "https://soydanaksoy.com.tr",
+  "logo": "https://soydanaksoy.com.tr/img/logo.svg",
+  "image": "https://soydanaksoy.com.tr/img/logo.svg"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Soydan Aksoy",
+  "url": "https://soydanaksoy.com.tr",
+  "logo": "https://soydanaksoy.com.tr/img/logo.svg"
+}
+</script>
   
-<link rel="stylesheet" href="style.css?v=uye65">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#2196f3">
+<link rel="stylesheet" href="style.css?v=kemb6">
 </head>
 
 <body>
-  <div id="header">
-<div class="bg-decor"></div>
-<div class="coming-container">
-    <div class="coming-title">Sizin için,</div>
-    <div class="coming-sub">Mükemmel yarınlara…</div>
-    <div class="coming-underline"></div>
-    <div class="countdown-row" id="countdown"></div>
-    <div class="notify-text">Hazır olduğunda bana haber ver</div>
-    <form class="notify-form" onsubmit="event.preventDefault(); alert('Kaydedildi!');">
-        <input type="email" placeholder="E-posta adresinizi girin" required>
-        <button type="submit">Göndermek</button>
-    </form>
-    <div class="footer">
-        Ten resim <a href="https://www.freepik.com/" target="_blank">Freepik</a>
-        <div class="socials">
-            <a href="#" title="Facebook" aria-label="Facebook">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                        d="M22 12c0-5.522-4.477-10-10-10S2 6.478 2 12c0 5.006 3.657 9.128 8.438 9.877v-6.987h-2.54v-2.89h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.242 0-1.632.771-1.632 1.562v1.875h2.773l-.443 2.89h-2.33v6.987C18.343 21.128 22 17.006 22 12z" />
-                </svg>
-            </a>
-            <a href="#" title="Twitter" aria-label="Twitter">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                        d="M22.46 6c-.77.35-1.6.59-2.47.69a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04A4.28 4.28 0 0 0 16.11 4c-2.37 0-4.29 1.92-4.29 4.29 0 .34.04.67.11.99C7.69 8.99 4.07 7.13 1.64 4.15c-.37.64-.58 1.39-.58 2.19 0 1.51.77 2.84 1.94 3.62-.72-.02-1.39-.22-1.98-.55v.06c0 2.11 1.5 3.87 3.5 4.27-.36.1-.74.16-1.13.16-.28 0-.54-.03-.8-.08.54 1.68 2.12 2.91 3.99 2.94A8.6 8.6 0 0 1 2 19.54c-.29 0-.57-.02-.85-.05A12.13 12.13 0 0 0 8.29 21.5c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.36-.02-.54A8.18 8.18 0 0 0 22.46 6z" />
-                </svg>
-            </a>
-            <a href="#" title="Instagram" aria-label="Instagram">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                        d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.41.59.22 1.01.48 1.45.92.44.44.7.86.92 1.45.17.46.354 1.26.41 2.43.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.41 2.43-.22.59-.48 1.01-.92 1.45-.44.44-.86.7-1.45.92-.46.17-1.26.354-2.43.41-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.41-.59-.22-1.01-.48-1.45-.92-.44-.44-.7-.86-.92-1.45-.17-.46-.354-1.26-.41-2.43C2.212 15.784 2.2 15.4 2.2 12s.012-3.584.07-4.85c.056-1.17.24-1.97.41-2.43.22-.59.48-1.01.92-1.45.44-.44.86-.7 1.45-.92.46-.17 1.26-.354 2.43-.41C8.416 2.212 8.8 2.2 12 2.2zm0-2.2C8.736 0 8.332.013 7.052.072 5.77.13 4.77.312 4.01.54c-.77.23-1.42.54-2.07 1.19C1.28 2.38.97 3.03.74 3.8c-.23.76-.41 1.76-.47 3.04C.013 8.332 0 8.736 0 12c0 3.264.013 3.668.072 4.948.058 1.28.24 2.28.47 3.04.23.77.54 1.42 1.19 2.07.65.65 1.3.96 2.07 1.19.76.23 1.76.41 3.04.47C8.332 23.987 8.736 24 12 24s3.668-.013 4.948-.072c1.28-.058 2.28-.24 3.04-.47.77-.23 1.42-.54 2.07-1.19.65-.65.96-1.3 1.19-2.07.23-.76.41-1.76.47-3.04.059-1.28.072-1.684.072-4.948 0-3.264-.013-3.668-.072-4.948-.058-1.28-.24-2.28-.47-3.04-.23-.77-.54-1.42-1.19-2.07-.65-.65-1.3-.96-2.07-1.19-.76-.23-1.76-.41-3.04-.47C15.668.013 15.264 0 12 0zM12 5.838A6.162 6.162 0 1 0 12 18.162 6.162 6.162 0 1 0 12 5.838zm0 10.162A3.999 3.999 0 1 1 12 8a3.999 3.999 0 0 1 0 7.999zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z" />
-                </svg>
-            </a>
-        </div>
+  <div id="header"><header class="h0000" role="banner">
+  <div class="h0000title" role="region" aria-label="Dil Seçici">
+    <div class="h0000titlebody">
+      <nav class="h0000titlebodylang" aria-label="Dil Seçici">
+        <ul role="list">
+          <li role="none"><a href="/tr/" hreflang="tr" aria-current="true" title="true" aria-label="Dil Seçici: tr" lang="tr">tr</a></li>
+        </ul>
+      </nav>
     </div>
-</div>
-<script>
-    // Sayaç başlangıcı: mesajın geldiği gün saat 20:00
-    const now = new Date();
-    let start = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 20, 0, 0, 0);
-    if (now > start) {
-        // Eğer saat 20:00 geçtiyse, bugünün 20:00'ını al
-        start = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 20, 0, 0, 0);
-    }
-    // 39 saat 16 dakika ekle
-    const targetDate = new Date(start.getTime() + (39 * 60 + 16) * 60 * 1000);
+  </div>
+  <div class="h0000Children">
+    <div class="h0000body">
+      <a href="/tr/" aria-label="Anasayfa - Soydan Aksoy" title="Anasayfa - Soydan Aksoy">
+        <img src="/img/logo.svg?v=j056a" class="h0000bodylogo" alt="Soydan Aksoy Logo" loading="lazy" />
+      </a>
+    </div>
+    <button class="h0000menumobil" type="button" aria-label="Menüyü Aç/Kapat" aria-expanded="false" aria-controls="h0000menulist">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+    </button>
+    <div class="h0000menuoverlay" id="h0000menuoverlay" aria-hidden="true"></div>
+    <nav class="h0000menulist" id="h0000menulist" role="navigation" aria-label="Navigasyon">
+      <button class="h0000menuclose" type="button" aria-label="Menüyü Kapat" aria-controls="h0000menulist">
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+      <ul role="menubar">
+        <a href="/tr/" class="h0000menuitem" role="menuitem" title="Anasayfa - " aria-label="Anasayfa">Anasayfa</a><a href="/tr/hakkimizda/" class="h0000menuitem" role="menuitem" title="Kurumsal" aria-label="Kurumsal">Kurumsal</a><a href="/tr/hizmetlerimiz/" class="h0000menuitem" role="menuitem" title="Hizmetlerimiz" aria-label="Hizmetlerimiz">Hizmetlerimiz</a><a href="/tr/iletisim/" class="h0000menuitem" role="menuitem" title="İletişim" aria-label="İletişim">İletişim</a>
+      </ul>
+      <div class="h0000menulang" aria-label="Dil Seçici">
+        <ul role="list">
+          <li role="none"><a href="/tr/" hreflang="tr" aria-current="true" title="true" aria-label="Dil Seçici: tr" lang="tr">tr</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
 
-    function pad(n) { return n < 10 ? '0' + n : n; }
-    function updateCountdown() {
-        const now = new Date();
-        let diff = targetDate - now;
-        if (diff < 0) diff = 0;
-        const hours = Math.floor(diff / (1000 * 60 * 60));
-        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-        document.getElementById('countdown').innerHTML =
-            `<div class="countdown-box">${pad(hours)}<span class="countdown-label">Saat</span></div>` +
-            `<div class="countdown-box">${pad(minutes)}<span class="countdown-label">Dakika</span></div>` +
-            `<div class="countdown-box">${pad(seconds)}<span class="countdown-label">Saniye</span></div>`;
-        if (diff <= 0) {
-            document.getElementById('countdown').innerHTML = '<div style="width:100%;color:#e91e63;font-size:1.5em;">Süre doldu!</div>';
+<script>
+  setTimeout(function() {
+    var menuButton = document.querySelector(".h0000menumobil");
+    var menu = document.querySelector(".h0000menulist");
+    var overlay = document.querySelector(".h0000menuoverlay");
+    var closeButton = document.querySelector(".h0000menuclose");
+    function openMenu() {
+      if (menu && overlay) {
+        menu.classList.add("active");
+        overlay.classList.add("active");
+        overlay.setAttribute("aria-hidden", "false");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "true");
         }
+        document.body.style.overflow = "hidden";
+      }
     }
-    setInterval(updateCountdown, 1000);
-    updateCountdown();
+    
+    function closeMenu() {
+      if (menu && overlay) {
+        menu.classList.remove("active");
+        overlay.classList.remove("active");
+        overlay.setAttribute("aria-hidden", "true");
+        if (menuButton) {
+          menuButton.setAttribute("aria-expanded", "false");
+        }
+        document.body.style.overflow = "";
+        if (menuButton) {
+          menuButton.focus();
+        }
+      }
+    }
+    
+    if (menuButton && menu && overlay) {
+      menuButton.addEventListener("click", function () {
+        var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+        if (isExpanded) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
+      });
+      if (closeButton) {
+        closeButton.addEventListener("click", function () {
+          closeMenu();
+        });
+      }
+      overlay.addEventListener("click", function () {
+        closeMenu();
+      });
+      menuButton.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          var isExpanded = menuButton.getAttribute("aria-expanded") === "true";
+          if (isExpanded) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        }
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && menuButton.getAttribute("aria-expanded") === "true") {
+          closeMenu();
+        }
+      });
+    }
+  }, 100);
+</script>
+<div class="swiper-container h0001">
+  <div class="swiper-wrapper" id="h0001"><div class="swiper-slide"><img src="/img/ecu614/0.png?v=1783520829885" alt="Soydan Aksoy"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ecu614/1.png?v=1783520829885" alt="Soydan Aksoy"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ecu614/2.png?v=1783520829885" alt="Soydan Aksoy"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ecu614/4.png?v=1783520829885" alt="Soydan Aksoy"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ecu614/6.png?v=1783520829885" alt="Soydan Aksoy"  loading="lazy"/></div><div class="swiper-slide"><img src="/img/ecu614/8.png?v=1783520829885" alt="Soydan Aksoy"  loading="lazy"/></div></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+<script>
+
+(function headerSliderInit() {
+  var attempts = 0;
+  var maxAttempts = 20;
+  var timer = setInterval(function () {
+    attempts++;
+    if (typeof Swiper === "function") {
+      clearInterval(timer);
+      new Swiper(".h0001", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: "3000",
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    } else if (attempts >= maxAttempts) {
+      clearInterval(timer);
+      console.warn("header/slider: Swiper bulunamadı, slider başlatılamadı.");
+    }
+  }, 250);
+})();
 </script>
 </div>
-  <div id="content"></div>
-  <div id="footer"></div>
-</body>
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <div id="content"><div class="b0000-out">
+  <div class="b0000">
+    <div class="b0000-left">
+      <img
+        src="/img/uqp2aa0/img.jpg?v=m2qmo"
+        class="b0000-left-img"
+        alt=""
+       loading="lazy"/>
+    </div>
+    <div class="b0000-right">
+      <div class="b0000-right-body">
+        <div class="b0000-right-body-name">Marka Danışmalığı</div>
+        <div class="b0000-right-body-spot">Company olarak 25 yıldır profesyonel personel kadromuz ile ithalat, ihracat, danışmanlık, lojistik ve transit ticaret alanlarında hizmet sunmaktan onur duyuyoruz. Ürünü olsun ya da olmasın, tüm firmalar için profesyonel ve kurumsal danışmanlık hizmeti sunarak firmaların etkin şekilde ithalat ya da ihracat yapmalarını sağlıyoruz.</div>
+        <div class="b0000-right-body-chile">
+          <div class="b0000-right-body-chile-row">
+            <div class="b0000-right-body-chile-row-name">Neden?</div>
+            <div class="b0000-right-body-chile-row-spot">Yenilikçi marka deneyimleriyle sektörde fark yaratan bir öncü olmak.</div>
+          </div>
+          <div class="b0000-right-body-chile-row">
+            <div class="b0000-right-body-chile-row-name">Niçin?</div>
+            <div class="b0000-right-body-chile-row-spot">Markaların hikayelerini güçlü, estetik ve stratejik bir şekilde anlatmalarını sağlamak.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<script type="text/javascript" src="/src/js.js?v=uye65"></script>
-<script src="/src/cookie.js?v=uye65"></script>
+<div class="b0001-text-body">Medya Satın Alma</div>
+
+<div class="b0002">
+  <div class="b0002body"><a href="/tr/acikhava/">
+        <div class="b0002bodyitem">
+          <div class="b0002bodyitemimg">
+            <img src="/page/ye12am4djy/kpjsl.png" alt="Açıkhava" loading="lazy">
+          </div>
+          <div class="b0002bodyitemtitle">Açıkhava</div>
+        </div>
+      </a><a href="/tr/dijital/">
+        <div class="b0002bodyitem">
+          <div class="b0002bodyitemimg">
+            <img src="/page/p06euizo0z/kzlsx.png" alt="Dijital" loading="lazy">
+          </div>
+          <div class="b0002bodyitemtitle">Dijital</div>
+        </div>
+      </a><a href="/tr/tvradyogazetedijital/">
+        <div class="b0002bodyitem">
+          <div class="b0002bodyitemimg">
+            <img src="/page/p9a5wi18qt/odg14.png" alt="TV & Radyo & Gazete" loading="lazy">
+          </div>
+          <div class="b0002bodyitemtitle">TV & Radyo & Gazete</div>
+        </div>
+      </a></div>
+</div>
+
+<div class="b0003-text-body">Yapay Zeka</div>
+
+<div class="b0004">
+  <div class="b0004body"><a href="/tr/yapayzekaisletmeasistani/">
+        <div class="b0004bodyitem">
+          <div class="b0004bodyitemimg">
+            <img src="/page/cjynchqteb/y3vtt.png" alt="Yapayzeka İşletme Asistanı" loading="lazy">
+          </div>
+          <div class="b0004bodyitemtitle">Yapayzeka İşletme Asistanı</div>
+        </div>
+      </a><a href="/tr/yapayzekakolsenter/">
+        <div class="b0004bodyitem">
+          <div class="b0004bodyitemimg">
+            <img src="/page/e9rcjkg6o4/k54kp.png" alt="Yapayzeka Kolsenter" loading="lazy">
+          </div>
+          <div class="b0004bodyitemtitle">Yapayzeka Kolsenter</div>
+        </div>
+      </a><a href="/tr/yapayzekakisselasistan/">
+        <div class="b0004bodyitem">
+          <div class="b0004bodyitemimg">
+            <img src="/page/nnlmkp2elm/i4ftk.png" alt="Yapay Zeka Kişsel Asistan" loading="lazy">
+          </div>
+          <div class="b0004bodyitemtitle">Yapay Zeka Kişsel Asistan</div>
+        </div>
+      </a></div>
+</div>
+
+<div class="b0005-text-body">Tasarım Atölyesi</div>
+
+<div class="b0006">
+  <div class="b0006body"><a href="/tr/kurumsalsunumtasarimlari/">
+        <div class="b0006bodyitem">
+          <div class="b0006bodyitemimg">
+            <img src="/page/v4a46zm7ev/bdl1d.jpg" alt="Kurumsal Sunum Tasarımları" loading="lazy">
+          </div>
+          <div class="b0006bodyitemtitle">Kurumsal Sunum Tasarımları</div>
+        </div>
+      </a><a href="/tr/reklamfilmi/">
+        <div class="b0006bodyitem">
+          <div class="b0006bodyitemimg">
+            <img src="/page/zk8gm0i657/u88wn.jpg" alt="Reklam Filmi" loading="lazy">
+          </div>
+          <div class="b0006bodyitemtitle">Reklam Filmi</div>
+        </div>
+      </a><a href="/tr/tanitimfilmi/">
+        <div class="b0006bodyitem">
+          <div class="b0006bodyitemimg">
+            <img src="/page/zl5mun2ah6/phy2r.jpg" alt="Tanıtım Filmi" loading="lazy">
+          </div>
+          <div class="b0006bodyitemtitle">Tanıtım Filmi</div>
+        </div>
+      </a><a href="/tr/animasyonfilmi/">
+        <div class="b0006bodyitem">
+          <div class="b0006bodyitemimg">
+            <img src="/page/dwiwld9thn/r3klp.jpg" alt="Animasyon Filmi" loading="lazy">
+          </div>
+          <div class="b0006bodyitemtitle">Animasyon Filmi</div>
+        </div>
+      </a><a href="/tr/etkinlikvekonsepttasarimlari/">
+        <div class="b0006bodyitem">
+          <div class="b0006bodyitemimg">
+            <img src="/page/s8n1f4y0hr/zoszw.png" alt="Etkinlik ve Konsept Tasarımları" loading="lazy">
+          </div>
+          <div class="b0006bodyitemtitle">Etkinlik ve Konsept Tasarımları</div>
+        </div>
+      </a><a href="/tr/kurumsalvideotasarim/">
+        <div class="b0006bodyitem">
+          <div class="b0006bodyitemimg">
+            <img src="/page/o26tp2wib9/gs0wj.jpg" alt="Kurumsal Video Tasarım" loading="lazy">
+          </div>
+          <div class="b0006bodyitemtitle">Kurumsal Video Tasarım</div>
+        </div>
+      </a></div>
+</div>
+
+</div>
+  <div id="footer"><footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+  
+  
+  
+      
+      
+  
+   
+  
+  
+      <li class="social-icon__item">
+        <a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+      <li class="social-icon__item">
+        <a class="social-icon__link" href="#">
+          <ion-icon name="logo-x"></ion-icon>
+        </a>
+      </li>
+      <li class="social-icon__item">
+        <a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </li>
+      <li class="social-icon__item">
+        <a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="/tr/">Anasayfa</a></li><li class="menu__item"><a class="menu__link" href="/tr/hakkimizda/">Kurumsal</a></li><li class="menu__item"><a class="menu__link" href="/tr/hizmetlerimiz/">Hizmetlerimiz</a></li><li class="menu__item"><a class="menu__link" href="/tr/iletisim/">İletişim</a></li>
+    </ul>
+    <p>Soydan Aksoy 2025 cognite. &copy;</p>
+  </footer>
+  </div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=kemb6"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=kemb6"></script>
+  <script defer src="/src/cookie.js?v=kemb6"></script>
+
+  <script>
+    setTimeout(function() {
+      var currentPath = window.location.pathname;
+      var rtlLanguages = ['ar', 'he', 'fa'];
+      var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+      var currentLang = langMatch ? langMatch[1] : '';
+      if (rtlLanguages.indexOf(currentLang) !== -1) {
+        document.documentElement.setAttribute('dir', 'rtl');
+      } else {
+        document.documentElement.setAttribute('dir', 'ltr');
+      }
+    }, 100);
+  </script>
+</body>
 
 </html>

@@ -1,0 +1,111 @@
+{
+  "data": [
+    {
+      "name": "Sayfalar",
+      "path": "page",
+      "desc": [],
+      "data": [],
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "page": true,
+        "body": true
+      }
+    },
+    {
+      "name": "Yapayzeka",
+      "path": "services",
+      "desc": [],
+      "data": [],
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [
+          "yplqx1",
+          "uqp2ab"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "detail": true,
+        "bgimg": true,
+        "img": true,
+        "spot": true,
+        "body": false
+      }
+    },
+    {
+      "name": "Medya Satın Alma",
+      "path": "satinalma",
+      "desc": [],
+      "data": [],
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [
+          "yplqx1",
+          "uqp2aa1"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "detail": true,
+        "img": true,
+        "bgimg": true
+      }
+    },
+    {
+      "name": "Marka Danışmanlığı",
+      "path": "marka",
+      "desc": [],
+      "data": [],
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [
+          "yplqx1",
+          "uqp2aa0"
+        ],
+        "footer": []
+      }
+    },
+    {
+      "name": "Tasarım Atölyesi",
+      "path": "tasarim",
+      "desc": [],
+      "data": [],
+      "index": 4,
+      "desing": {
+        "header": [],
+        "body": [
+          "yplqx1",
+          "uqp2ac"
+        ],
+        "footer": []
+      },
+      "modulestatus": {
+        "detail": true,
+        "img": true,
+        "bgimg": true
+      }
+    },
+    {
+      "name": "Kurumsal",
+      "path": "kurumsal",
+      "desc": [],
+      "data": [],
+      "index": 5,
+      "desing": {
+        "header": [],
+        "body": [
+          "kx49mv"
+        ],
+        "footer": []
+      }
+    }
+  ]
+}

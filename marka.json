@@ -1,0 +1,34 @@
+{
+  "name": "Marka Danışmanlığı",
+  "path": "marka",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Marka Danışmalığı"
+      },
+      "status": "play",
+      "category": "",
+      "id": "y78hadddgn",
+      "externalUrl": "",
+      "path": "markadanismaligi",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "desc": {}
+    }
+  ],
+  "index": 3,
+  "desing": {
+    "header": [],
+    "body": [
+      "yplqx1",
+      "uqp2aa0"
+    ],
+    "footer": []
+  }
+}

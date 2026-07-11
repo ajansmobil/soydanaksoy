@@ -1,0 +1,183 @@
+{
+  "name": "Tasarım Atölyesi",
+  "path": "tasarim",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal Sunum Tasarımları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "v4a46zm7ev",
+      "externalUrl": "",
+      "path": "kurumsalsunumtasarimlari",
+      "index": 0,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "bdl1d.jpg",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Reklam Filmi"
+      },
+      "status": "play",
+      "category": "",
+      "id": "zk8gm0i657",
+      "externalUrl": "",
+      "path": "reklamfilmi",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-08T04:43:39.378Z",
+      "date": "2025-06-23T11:15:34.810Z",
+      "img": "u88wn.jpg",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Tanıtım Filmi"
+      },
+      "status": "play",
+      "category": "",
+      "id": "zl5mun2ah6",
+      "externalUrl": "",
+      "path": "tanitimfilmi",
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-08T04:43:39.383Z",
+      "date": "2025-06-23T11:23:21.153Z",
+      "img": "phy2r.jpg",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Animasyon Filmi"
+      },
+      "status": "play",
+      "category": "",
+      "id": "dwiwld9thn",
+      "externalUrl": "",
+      "path": "animasyonfilmi",
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-08T04:43:39.393Z",
+      "date": "2025-06-23T11:23:44.570Z",
+      "img": "r3klp.jpg",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Etkinlik ve Konsept Tasarımları"
+      },
+      "status": "play",
+      "category": "",
+      "id": "s8n1f4y0hr",
+      "externalUrl": "",
+      "path": "etkinlikvekonsepttasarimlari",
+      "index": 4,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "img": "zoszw.png",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Kurumsal Video Tasarım"
+      },
+      "status": "play",
+      "category": "",
+      "id": "o26tp2wib9",
+      "externalUrl": "",
+      "path": "kurumsalvideotasarim",
+      "index": 5,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": ""
+      },
+      "keyword": {
+        "tr": ""
+      },
+      "spot": {
+        "tr": ""
+      },
+      "update": "2025-08-08T04:43:39.413Z",
+      "date": "2025-06-23T11:26:17.085Z",
+      "img": "gs0wj.jpg",
+      "desc": {}
+    }
+  ],
+  "index": 4,
+  "desing": {
+    "header": [],
+    "body": [
+      "yplqx1",
+      "uqp2ac"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "detail": true,
+    "img": true,
+    "bgimg": true
+  }
+}

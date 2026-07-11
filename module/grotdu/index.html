@@ -1,0 +1,272 @@
+<style>
+  body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: #f7f7fa;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .coming-container {
+    max-width: 500px;
+    margin: 60px auto 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    padding: 40px 30px 30px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .coming-title {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #222;
+    margin-bottom: 0.2em;
+    letter-spacing: 1px;
+  }
+
+  .coming-sub {
+    font-size: 2em;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
+  }
+
+  .coming-underline {
+    width: 60px;
+    height: 4px;
+    background: #e91e63;
+    margin: 0 auto 30px auto;
+    border-radius: 2px;
+  }
+
+  .countdown-row {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 18px;
+  }
+
+  .countdown-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(233, 30, 99, 0.08);
+    padding: 18px 10px 10px 10px;
+    min-width: 60px;
+    color: #e91e63;
+    font-size: 2.2em;
+    font-weight: 700;
+    position: relative;
+  }
+
+  .countdown-label {
+    font-size: 0.7em;
+    color: #888;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 6px;
+    display: block;
+  }
+
+  .notify-text {
+    margin: 30px 0 10px 0;
+    color: #222;
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+
+  .notify-form {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin-bottom: 18px;
+  }
+
+  .notify-form input[type="email"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 1em;
+    width: 220px;
+    background: #fafafa;
+  }
+
+  .notify-form button {
+    padding: 12px 24px;
+    border: none;
+    background: #222;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background 0.2s;
+  }
+
+  .notify-form button:hover {
+    background: #e91e63;
+  }
+
+  .footer {
+    margin-top: 18px;
+    color: #888;
+    font-size: 0.95em;
+  }
+
+  .footer a {
+    color: #888;
+    text-decoration: underline;
+    font-size: 0.95em;
+  }
+
+  .socials {
+    margin: 12px 0 0 0;
+  }
+
+  .socials a {
+    display: inline-block;
+    margin: 0 8px;
+    color: #222;
+    font-size: 1.3em;
+    transition: color 0.2s;
+  }
+
+  .socials a:hover {
+    color: #e91e63;
+  }
+
+  
+  .bg-decor {
+    position: fixed;
+    z-index: 0;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" xmlns="http://www.w3.org/2000/svg"><circle cx="80" cy="80" r="60" fill="none" stroke="%23e0e0e0" stroke-width="2"/><circle cx="300" cy="200" r="120" fill="none" stroke="%23e0e0e0" stroke-width="2"/><circle cx="90%25" cy="60" r="80" fill="none" stroke="%23e0e0e0" stroke-width="2"/><circle cx="60%25" cy="90%25" r="100" fill="none" stroke="%23e0e0e0" stroke-width="2"/></svg>');
+    opacity: 0.5;
+  }
+
+  @media (max-width: 600px) {
+    .coming-container {
+      padding: 20px 5px;
+    }
+
+    .countdown-row {
+      gap: 8px;
+    }
+
+    .countdown-box {
+      font-size: 1.3em;
+      min-width: 40px;
+      padding: 10px 4px 6px 4px;
+    }
+
+    .notify-form input[type="email"] {
+      width: 120px;
+      font-size: 0.95em;
+    }
+
+    .coming-title {
+      font-size: 1em;
+    }
+
+    .coming-sub {
+      font-size: 1.2em;
+    }
+  }
+</style>
+<div class="bg-decor"></div>
+<div class="coming-container">
+  <div class="coming-title">Sizin için,</div>
+  <div class="coming-sub">Mükemmel yarınlara…</div>
+  <div class="coming-underline"></div>
+  <div class="countdown-row" id="countdown"></div>
+  <div class="notify-text">Hazır olduğunda bana haber ver</div>
+  <form
+    class="notify-form"
+    onsubmit="event.preventDefault(); alert('Kaydedildi!');"
+  >
+    <input type="email" placeholder="E-posta adresinizi girin" required />
+    <button type="submit">Göndermek</button>
+  </form>
+  <div class="footer">
+    Ten resim <a href="https://www.freepik.com/" target="_blank">Freepik</a>
+    <div class="socials">
+      <a href="#" title="Facebook" aria-label="Facebook">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M22 12c0-5.522-4.477-10-10-10S2 6.478 2 12c0 5.006 3.657 9.128 8.438 9.877v-6.987h-2.54v-2.89h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.242 0-1.632.771-1.632 1.562v1.875h2.773l-.443 2.89h-2.33v6.987C18.343 21.128 22 17.006 22 12z"
+          />
+        </svg>
+      </a>
+      <a href="#" title="Twitter" aria-label="Twitter">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M22.46 6c-.77.35-1.6.59-2.47.69a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04A4.28 4.28 0 0 0 16.11 4c-2.37 0-4.29 1.92-4.29 4.29 0 .34.04.67.11.99C7.69 8.99 4.07 7.13 1.64 4.15c-.37.64-.58 1.39-.58 2.19 0 1.51.77 2.84 1.94 3.62-.72-.02-1.39-.22-1.98-.55v.06c0 2.11 1.5 3.87 3.5 4.27-.36.1-.74.16-1.13.16-.28 0-.54-.03-.8-.08.54 1.68 2.12 2.91 3.99 2.94A8.6 8.6 0 0 1 2 19.54c-.29 0-.57-.02-.85-.05A12.13 12.13 0 0 0 8.29 21.5c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.36-.02-.54A8.18 8.18 0 0 0 22.46 6z"
+          />
+        </svg>
+      </a>
+      <a href="#" title="Instagram" aria-label="Instagram">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.056 1.97.24 2.43.41.59.22 1.01.48 1.45.92.44.44.7.86.92 1.45.17.46.354 1.26.41 2.43.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.41 2.43-.22.59-.48 1.01-.92 1.45-.44.44-.86.7-1.45.92-.46.17-1.26.354-2.43.41-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.43-.41-.59-.22-1.01-.48-1.45-.92-.44-.44-.7-.86-.92-1.45-.17-.46-.354-1.26-.41-2.43C2.212 15.784 2.2 15.4 2.2 12s.012-3.584.07-4.85c.056-1.17.24-1.97.41-2.43.22-.59.48-1.01.92-1.45.44-.44.86-.7 1.45-.92.46-.17 1.26-.354 2.43-.41C8.416 2.212 8.8 2.2 12 2.2zm0-2.2C8.736 0 8.332.013 7.052.072 5.77.13 4.77.312 4.01.54c-.77.23-1.42.54-2.07 1.19C1.28 2.38.97 3.03.74 3.8c-.23.76-.41 1.76-.47 3.04C.013 8.332 0 8.736 0 12c0 3.264.013 3.668.072 4.948.058 1.28.24 2.28.47 3.04.23.77.54 1.42 1.19 2.07.65.65 1.3.96 2.07 1.19.76.23 1.76.41 3.04.47C8.332 23.987 8.736 24 12 24s3.668-.013 4.948-.072c1.28-.058 2.28-.24 3.04-.47.77-.23 1.42-.54 2.07-1.19.65-.65.96-1.3 1.19-2.07.23-.76.41-1.76.47-3.04.059-1.28.072-1.684.072-4.948 0-3.264-.013-3.668-.072-4.948-.058-1.28-.24-2.28-.47-3.04-.23-.77-.54-1.42-1.19-2.07-.65-.65-1.3-.96-2.07-1.19-.76-.23-1.76-.41-3.04-.47C15.668.013 15.264 0 12 0zM12 5.838A6.162 6.162 0 1 0 12 18.162 6.162 6.162 0 1 0 12 5.838zm0 10.162A3.999 3.999 0 1 1 12 8a3.999 3.999 0 0 1 0 7.999zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"
+          />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+<script>
+  const now = new Date();
+  let start = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDate(),
+    20,
+    0,
+    0,
+    0,
+  );
+  if (now > start) {
+    start = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate(),
+      20,
+      0,
+      0,
+      0,
+    );
+  }
+  const targetDate = new Date(start.getTime() + (39 * 60 + 16) * 60 * 1000);
+
+  function pad(n) {
+    return n < 10 ? "0" + n : n;
+  }
+  function updateCountdown() {
+    const now = new Date();
+    let diff = targetDate - now;
+    if (diff < 0) diff = 0;
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+    document.getElementById("countdown").innerHTML =
+      `<div class="countdown-box">${pad(hours)}<span class="countdown-label">Saat</span></div>` +
+      `<div class="countdown-box">${pad(minutes)}<span class="countdown-label">Dakika</span></div>` +
+      `<div class="countdown-box">${pad(seconds)}<span class="countdown-label">Saniye</span></div>`;
+    if (diff <= 0) {
+      document.getElementById("countdown").innerHTML =
+        '<div style="width:100%;color:#e91e63;font-size:1.5em;">Süre doldu!</div>';
+    }
+  }
+  setInterval(updateCountdown, 1000);
+  updateCountdown();
+</script>
